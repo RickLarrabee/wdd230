@@ -1,0 +1,1 @@
+const lastmod = document.querySelector('#lastmod')
