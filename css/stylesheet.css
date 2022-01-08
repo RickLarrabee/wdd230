@@ -1,6 +1,5 @@
-
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #content {
@@ -24,8 +23,8 @@ h2 {
 }
 
 ul {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 footer {
@@ -33,4 +32,8 @@ footer {
   padding: 20px;
   text-align: center;
   border-radius: 0 0 15px 15px;
+}
+
+footer p {
+  font-weight: bold;
 }
