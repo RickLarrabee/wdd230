@@ -1,5 +1,7 @@
-/* Fonts from Google Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+h2 {
+    text-align: center;
+}
 
 #content {
   background-color: #f4decb;
@@ -19,14 +21,11 @@
 
 .headerimage {
   max-width: 100%;
-  grid-column: 1;
 }
 
-.maingrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    border-bottom: 3px black;
+ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 footer {
