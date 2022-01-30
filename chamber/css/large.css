@@ -1,0 +1,136 @@
+@media (min-width: 48em) {
+	header {
+		background-color: #80ced6;
+		border-radius: 10px;
+		justify-content: space-between;
+	}
+	
+	nav {
+		order: inherit;
+	}
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.navigation li:nth-child(2) {
+		border-radius: 10px;
+	}
+
+	.mainContent {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 1em;
+	}
+
+	.event {
+		grid-column: 1/2;
+		grid-row: 1/2;
+		height: 200px;
+		width: 200px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.weather {
+		grid-column: 1/2;
+		grid-row: 2/3;
+		height: 200px;
+		width: 200px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.join {
+		grid-column: 1/2;
+		grid-row:3/4;
+		height: 200px;
+		width: 200px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.hero {
+		grid-column: 2/5;
+		grid-row: 1/3;
+		height: 420px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.newsRelease {
+		grid-column: 2/5;
+		grid-row: 3/4;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.sideBar {
+		grid-column: 5/6;
+		grid-row: 1/4;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.spotLight1 {
+		height: 200px;
+		width: 175px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.spotLight2 {
+		height: 200px;
+		width: 175px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.spotLight3 {
+		display:block;
+		height: 200px;
+		width: 175px;
+		border: solid;
+		border-radius: 10px;
+		background-color: #eee;
+	}
+
+	.chamberInfo {
+		display: flex;
+		justify-content: space-between;
+		padding: 15px;
+	}
+	
+	.chamberAddress {
+		display: flex;
+	}
+	
+	.chamberMap {
+		display: flex;
+	}
+	
+	.chamberContact {
+		display: flex;
+	}
+}

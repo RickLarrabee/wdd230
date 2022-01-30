@@ -1,0 +1,102 @@
+@media (min-width: 37.5em) {
+  .chamberInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .mainContent {
+    display: grid;
+    grid-template-columns: repeat (4 1fr);
+    grid-template-rows: repeat (7 1fr);
+    grid-gap: 1em;
+  }
+
+  .hero {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .newsRelease {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .sideBar {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .spotLight1 {
+    height: 200px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .spotLight2 {
+    height: 200px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .spotLight3 {
+    display: none;
+  }
+
+  .join {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .event {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+  .weather {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+  .chamberAddress {
+    display: flex;
+  }
+
+  .chamberMap {
+    display: flex;
+  }
+
+  .chamberContact {
+    display: flex;
+  }
+}

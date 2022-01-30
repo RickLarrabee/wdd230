@@ -1,0 +1,213 @@
+/* Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "Architects Daughter", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  max-width: 1028px;
+  margin: 0 auto;
+  background-color: #d5f4e6;
+  border-radius: 10px;
+}
+
+header {
+  background-color: #80ced6;
+  border-radius: 10px;
+}
+
+.chamberHead {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBanner {
+  display: flex;
+  padding: 15px;
+}
+
+.headerLogo {
+  padding: 10px;
+}
+
+nav {
+  padding: 10px;
+  order: 3;
+}
+
+.navigation {
+  list-style: none;
+  background-color: #618685;
+  border-radius: 10px;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+  border-radius: 10px;
+}
+
+.navigation li:last-child {
+  border-radius: 10px;
+}
+
+.navigation li {
+  display: none;
+  background-color: #618685;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.navigation a.ham::before {
+  content: "☰";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+  display: block;
+}
+
+.responsive a.ham::before {
+  content: "X";
+  text-align: center;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.socialButtons {
+  display: flex;
+  padding: 10px;
+}
+
+.socialButtons img {
+  max-width: 100%;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  background-color: #618685;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.hero {
+  height: 200px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.newsRelease {
+  height: 200px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.spotLight1 {
+  height: 200px;
+  width: 99%;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.spotLight2 {
+  height: 200px;
+  width: 99%;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.spotLight3 {
+  display: none;
+}
+
+.join {
+  display: none;
+}
+
+.event {
+  height: 200px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.weather {
+  height: 200px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #80ced6;
+  border-radius: 10px;
+}
+
+.footerLogo {
+  padding-right: 10px;
+}
+
+.chamberFoot {
+  align-items: center;
+  text-align: center;
+  border-top: solid #eee;
+  padding: 10px;
+}
