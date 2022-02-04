@@ -8,12 +8,10 @@ button.addEventListener('click', () => {
     item.innerHTML = `${input}`;
     list.appendChild(item);
 
-    let listButton = document.createElement('button');
-    item.appendChild(listButton);
-    listButton.textContent = '❌';
-    listButton.addEventListener('click', () =>{
-        list.removeChild(item);
-    })
+    const deleteButton = document.createElement('button');
+    item.appendChild(deleteButton);
+    deleteButton.textContent = '❌';
+    deleteButton.addEventListener('click', event =>list.removeChild(item))
     userInput.value='';
     userInput.focus();
 });
