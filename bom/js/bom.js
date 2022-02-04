@@ -4,16 +4,21 @@ const button = document.querySelector('button');
 button.addEventListener('click', () => {
     let input = userInput.value;
 
+    if (input === '') {
+        alert('Enter a favorite Chapter')
+    }
+    else {
     let item = document.createElement('li');
     item.innerHTML = `${input}`;
     list.appendChild(item);
 
     const deleteButton = document.createElement('button');
     item.appendChild(deleteButton);
-    deleteButton.textContent = '❌';
+    deleteButton.innerText = '❌';
     deleteButton.addEventListener('click', event =>list.removeChild(item))
     userInput.value='';
     userInput.focus();
+    }
 });
 
 const modDate = document.querySelector('#lastMod');
