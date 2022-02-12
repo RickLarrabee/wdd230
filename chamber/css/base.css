@@ -24,6 +24,10 @@ img {
   border-radius: 10px;
 }
 
+.banner {
+  align-items: center;
+}
+
 header {
   background-color: #80ced6;
   border-radius: 10px;
