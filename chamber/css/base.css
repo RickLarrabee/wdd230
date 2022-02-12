@@ -212,6 +212,24 @@ nav ul li.active a {
   background-color: #eee;
 }
 
+.weatherAll {
+  text-align: center;
+  align-items: center;
+}
+
+.weatherInfo {
+  border-bottom: solid;
+}
+
+.weatherInfo h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+.weatherInfo img {
+  float:left;
+}
+
 footer {
   align-items: center;
   text-align: center;
