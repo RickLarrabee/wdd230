@@ -17,7 +17,7 @@ const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 dateField.innerHTML = `<em>${fullDate}</em>`;
 
 dayMessage = ''
-const weekday = 1;
+const weekday = d.getDay();
 if (weekday > 0 && weekday < 3) {
    dayMessage = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
