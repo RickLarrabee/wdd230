@@ -155,6 +155,7 @@ nav ul li.active a {
   border: solid;
   border-radius: 10px;
   background-color: #eee;
+  text-align: center;
 }
 
 .sideBar {
