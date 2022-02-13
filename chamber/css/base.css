@@ -192,10 +192,29 @@ nav ul li.active a {
   border: solid;
   border-radius: 10px;
   background-color: #eee;
+  text-align: center;
+}
+
+ .spotlight2 img {
+  max-width: 100%;
+ }
+
+ .spotLight2 p {
+  margin: 0;
 }
 
 .spotLight3 {
   display: none;
+  text-align: center;
+}
+
+ .spotlight3 img {
+  max-width: 100%;
+ }
+
+ .spotLight3 p {
+  margin: 0;
+}
 }
 
 .join {
