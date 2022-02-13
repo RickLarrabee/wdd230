@@ -1,5 +1,5 @@
 let temp = 30;
-let windSpeed = 3.5;
+let windSpeed = 2.5;
 let windChill = '';
 
 if (temp <= 50 && windSpeed > 3.0) {
