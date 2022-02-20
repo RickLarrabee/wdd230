@@ -258,6 +258,18 @@ nav ul li.active a {
   float:left;
 }
 
+.discoverColumnOne {
+  padding: 10px;
+  height: 800px;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.discoverColumnOne img {
+  padding: 5px;
+  border-radius: 10px;
+}
+
 footer {
   align-items: center;
   text-align: center;

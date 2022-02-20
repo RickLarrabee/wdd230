@@ -166,4 +166,19 @@
 	.chamberContact {
 		display: flex;
 	}
+
+	.discoverMainContent {
+		display: grid;
+		grid-template-columns: 70% 30%;
+	}
+	  
+	.discoverColumnOne {
+		grid-column: 1/2;
+		align-items: center;
+		max-width: 100%;
+	}
+
+	.discoverColumnTwo {
+		grid-column: 2/3;
+	}
 }
