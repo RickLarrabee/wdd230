@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Show Low Chamber of Commerce Site" />
-    <title>Show Low City Chamber Discover Page</title>
+    <title>Show Low City Chamber Join Page</title>
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
@@ -34,9 +34,9 @@
             <ul class="navigation">
               <li><a class="ham" href="#"></a></li>
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="discover.html">Discover</a></li>
+              <li><a href="discover.html">Discover</a></li>
               <li><a href="#">Directory</a></li>
-              <li><a href="join.html">Join</a></li>
+              <li class = "active"><a href="join.html">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
@@ -52,52 +52,27 @@
         <span class="date"></span>
       </header>
       <main>
-        <div class="discoverMainContent">
-          <div class="discoverColumnOne">
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/ski-resort.webp" alt="image of a ski resort">
-            </picture>
-            <h2>Show Low is close to great ski resorts.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/ski-lift.webp" alt="image of a ski resort">
-            </picture>
-            <h2>Come and enjoy skiing every winter.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/family-img.webp" alt="picture of a family jumping">
-            </picture>
-            <h2>Show Low is a great place for families.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/valley-img.webp" alt="image of a valley">
-            </picture>
-            <h2>Show Low is a great place to raise a family.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/camping-people.webp" alt="family camping">
-            </picture>
-            <h2>Show Low has world class camping.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/night-sky.webp" alt="sunset in the mountains">
-            </picture>
-            <h2>Evening skys are a sight to see.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/fishing.webp" alt="people fishing on a boat">
-            </picture>
-            <h2>Show Low is the gateway to world class fishing.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/volleyball.webp" alt="girls playing volleyball">
-            </picture>
-            <h2>Show Low has great youth sports.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/mountain-side.webp" alt="mountain valley">
-            </picture>
-            <h2>Show Low has beautiful mountain views.</h2>
-          </div>
-          <div class="discoverColumnTwo">
-              <h2>Show Low Information</h2>
-              <h3>Elevation: 6,345 Feet</h3>
-              <h3>Population: 11,130 (2019)</h3>
-              <h3>Average high temperature: 83&deg; F</h3>
-              <h3>Average low temperature: 23&deg; F</h3>
-          </div>
+        <div class="joinMainContent">
+            <form method="get"action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label> First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Title <input type="text" name="organization-title" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="joe.smith@abc.com" required></label>
+                    <label>Cell Phone Number* <input type="tel" name="tel" required></label>
+                    <label>Business Name* <input type="title text" name="organization"></label>
+                    <label>Business Description <input type="textarea" name="description"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="level" value="NonProfit">NP Membership is for non profit organizations and there is no fee.</label>
+                    <label><input type="radio" name="level" value="Bronze">Bronze Membership</label>
+                    <label><input type="radio" name="level" value="Silver">Silver Membership</label>
+                    <label><input type="radio" name="level" value="Gold">Gold Membership</label>
+                </fieldset>
+                <input type="submit" value="Join">
+            </form>
         </div>
       </main>
       <footer>

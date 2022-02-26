@@ -17,12 +17,16 @@ img {
   margin-right: auto;
 }
 
+/*---------------Page Content control--------------*/
+
 .content {
   max-width: 1028px;
   margin: 0 auto;
   background-color: #d5f4e6;
   border-radius: 10px;
 }
+
+/*---------------Page Header---------------------*/
 
 .banner {
   align-items: center;
@@ -48,6 +52,8 @@ header {
 .headerLogo {
   padding: 10px;
 }
+
+/*-----------------Site Navigation------------------*/
 
 nav {
   padding: 10px;
@@ -128,6 +134,8 @@ nav ul li.active a {
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
 }
+
+/*--------------------Home Page Main Content--------------------*/
 
 .mainContent {
   display: flex;
@@ -258,6 +266,8 @@ nav ul li.active a {
   float:left;
 }
 
+/*------------------Discover Page Layout-----------------------*/
+
 .discoverColumnOne {
   padding: 10px;
   height: 800px;
@@ -268,6 +278,22 @@ nav ul li.active a {
 .discoverColumnOne img {
   padding: 5px;
   border-radius: 10px;
+}
+
+/*--------------------------Join Page Layout--------------------*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: .5em 2%;
+}
+
+form legend {
+  font-family: "Architects Daughter", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 0 .5rem;
 }
 
 footer {
