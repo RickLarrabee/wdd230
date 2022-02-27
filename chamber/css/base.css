@@ -270,14 +270,13 @@ nav ul li.active a {
 
 .discoverColumnOne {
   padding: 10px;
-  height: 800px;
   text-align: center;
-  overflow-y: scroll;
 }
 
 .discoverColumnOne img {
   padding: 5px;
   border-radius: 10px;
+  max-width: 100%;
 }
 
 /*--------------------------Join Page Layout--------------------*/

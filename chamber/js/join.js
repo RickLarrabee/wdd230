@@ -41,3 +41,7 @@ if (daysSinceVisit !== 0){
 };
 
 window.localStorage.setItem("visitDate", currentVisit);
+
+// place the time submitted into the hidden field on the join page.
+
+document.querySelector("#timeSubmit").textContent = d
