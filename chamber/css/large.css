@@ -185,4 +185,12 @@
 	.discoverColumnTwo {
 		grid-column: 2/3;
 	}
+
+	/*---------------Join Form Styling-----------------*/
+
+	.joinFormContent {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 10px;
+	}
 }

@@ -6,11 +6,14 @@ let currentYear = d.getFullYear();
 
 document.querySelector('#year').textContent = currentYear;
 
+// construct the hamburger button for medium and small view ports
 
 const hamButton = document.querySelector('.ham');
 const mainNav = document.querySelector('.navigation')
 
 hamButton.addEventListener('click', () => {mainNav.classList.toggle('responsive')}, false);
+
+// determine the day and show a banner on certain days of the week.
 
 const dateField = document.querySelector(".date");
 const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format( d );
@@ -38,3 +41,7 @@ if (daysSinceVisit !== 0){
 };
 
 window.localStorage.setItem("visitDate", currentVisit);
+
+// place the time submitted into the hidden field on the join page.
+
+document.querySelector("#timeSubmit").textContent = d

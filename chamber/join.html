@@ -54,25 +54,38 @@
       <main>
         <div class="joinMainContent">
             <form method="get"action="thankyou.html">
+                <div class="joinFormContent">
                 <fieldset>
                     <legend>Applicant Information</legend>
-                    <label> First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name* <input type="text" name="lname" required></label>
-                    <label>Title <input type="text" name="organization-title" required></label>
-                    <label>Email* <input type="email" name="email" placeholder="joe.smith@abc.com" required></label>
-                    <label>Cell Phone Number* <input type="tel" name="tel" required></label>
-                    <label>Business Name* <input type="title text" name="organization"></label>
-                    <label>Business Description <input type="textarea" name="description"></label>
+                    <label class="top"> First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Title <input type="text" name="organization-title" pattern="[A-Za-z -]{7,}" 
+                        title="Title minimum of 7 characters, a-z, space or -, cannot contain numbers"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="joe.smith@abc.com" required></label>
+                    <label class="top">Cell Phone Number* <input type="tel" name="tel" required></label>
+                    <label class="top">Business Name* <input type="title text" name="organization"></label>
+                    <label class="top">Business Description <textarea type="textarea" name="description"></textarea></label>
                 </fieldset>
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label><input type="radio" name="level" value="NonProfit">NP Membership is for non profit organizations and there is no fee.</label>
-                    <label><input type="radio" name="level" value="Bronze">Bronze Membership</label>
-                    <label><input type="radio" name="level" value="Silver">Silver Membership</label>
-                    <label><input type="radio" name="level" value="Gold">Gold Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="NonProfit">Non-profit Membership.</label>
+                    <p>Free</p>
+                    <p>No membership fees, Monthly news letter, Discounts at select merchants,
+                        Requires proof of non-profit status</p>
+                    <label class="sbs"><input type="radio" name="level" value="Bronze">Bronze Membership</label>
+                    <p>$50.00 per year</p>
+                    <p>Monthly news letter, Discounts at select merchants</p>
+                    <label class="sbs"><input type="radio" name="level" value="Silver">Silver Membership</label>
+                    <p>$100.00 per year</p>
+                    <p>Monthly news letter, Discounts at select merchants</p>
+                    <label class="sbs"><input type="radio" name="level" value="Gold">Gold Membership</label>
+                    <p>$150.00 per year</p>
+                    <p>Monthly news letter, Discounts at select merchants</p>
                 </fieldset>
-                <input type="submit" value="Join">
+                </div>
+                <input type="submit" value="Join" class="submitBtn">
             </form>
+            <p hidden><Span id="timeSubmit"></Span></p>
         </div>
       </main>
       <footer>

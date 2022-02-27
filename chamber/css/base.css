@@ -282,9 +282,13 @@ nav ul li.active a {
 
 /*--------------------------Join Page Layout--------------------*/
 
+.joinMainContent {
+  padding: 1em;
+}
+
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid blue;
+  border: 1px solid #618685;
   border-radius: 10px;
   padding: .5em 2%;
 }
@@ -295,6 +299,51 @@ form legend {
   font-size: large;
   padding: 0 .5rem;
 }
+
+form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+form label.top input, form label.sbs select, form label.top textarea{
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 1em;
+  border-radius: 5px;
+  border: solid 1px black;
+  padding: .50em 0;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form label.top input{
+  margin-bottom: .75em;
+}
+
+form p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+form label.sbs {
+  display: block;
+  font-size: 1em;
+  width: 100;
+  padding: .75em 0;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #618685;
+  padding: 10px 30px;
+  border-radius: 10px;  
+}
+
+form input.submitBtn:hover {
+  background-color: #80ced6;
+}
+
+/*----------------Footer Style--------------*/
 
 footer {
   align-items: center;
