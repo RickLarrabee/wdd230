@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Show Low Chamber of Commerce Site" />
-    <title>Show Low City Chamber</title>
+    <title>Show Low City Chamber Discover Page</title>
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/commerce.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/lazyload.js"></script>
   </head>
   <body>
     <div class="content">
@@ -33,9 +33,9 @@
           <nav>
             <ul class="navigation">
               <li><a class="ham" href="#"></a></li>
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="discover.html">Discover</a></li>
-              <li><a href="directory.html">Directory</a></li>
+              <li class="active"><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -52,84 +52,8 @@
         <span class="date"></span>
       </header>
       <main>
-        <div class="mainContent">
-          <div class="hero">
-            <picture>
-              <source
-                srcset="images/wdd230-org-large.webp"
-                media="(min-width: 800px)"
-              />
-              <source
-                srcset="images/wdd230-org-medium.webp"
-                media="(min-width: 500px) "
-              />
-              <img
-                src="images/wdd230-org-small.webp"
-                alt="Show Low Statue Pic"
-              />
-            </picture>
-          </div>
-          <div class="event">
-            <img src="images/kidsNight.webp" alt="Kids Night Event" />
-          </div>
-          <div class="weather">
-            <div class="weatherAll">
-              <div class="weatherInfo">
-                <h3>Weather</h3>
-                <img src="images/partlyCloudy.png" alt="partly cloudy" />
-                <h3>
-                  <span class="temp"></span>
-                </h3>
-                <h3>Partly Cloudy</h3>
-              </div>
-              <div class="windInfo">
-                <p>
-                  Wind Speed: <span class="windSpeed"></span> MPH<br />Wind
-                  Chill:
-                  <span class="windChill"></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="join">
-            <p>
-              Discover how to join the Show Low chamber of commerce and how we
-              can help your organization grow.
-            </p>
-          </div>
-          <div class="newsRelease">
-            <h3>News Release</h3>
-            <p>
-              The new Show Low Ampitheater will be opening in March. Please come
-              out and watch the story of how Show Low came to be.
-            </p>
-          </div>
-          <div class="sideBar">
-            <div class="spotLight1">
-              <picture>
-                <img src="images/battleLogo.png" alt="Battle Volleyball Logo" />
-              </picture>
-              <p><strong>Phone: 555-555-5555</strong></p>
-              <p>Website</p>
-            </div>
-            <div class="spotLight2">
-              <picture>
-                <img src="images/smithOptometry.png" alt="Smith Optometry" />
-              </picture>
-              <p><strong>Phone: 555-555-5555</strong></p>
-              <p>Website</p>
-            </div>
-            <div class="spotLight3">
-              <picture>
-                <img
-                  src="images/showLowFintess.png"
-                  alt="Show Low Elite Fitness"
-                />
-              </picture>
-              <p><strong>Phone: 555-555-5555</strong></p>
-              <p>Website</p>
-            </div>
-          </div>
+        <div class="discoverMainContent">
+          
         </div>
       </main>
       <footer>

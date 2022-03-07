@@ -1,0 +1,88 @@
+{
+    "companies": [
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      },
+      {
+        "business": "Hotchkiss Financial",
+        "address": "1780 Snow Creek Loop, Show Low, AZ 85901 ",
+        "phone": "(520) 324-0000",
+        "website": "http://hotchkissfinancial.com/",
+        "imageurl": "images/hotchkiss.png"
+      },
+      {
+        "business": "All Custom Exteriors",
+        "address": "1005 Snowflake Boulevard, Snowflake, AZ 85937",
+        "phone": "(928) 536-7275",
+        "website": "https://allcustomexteriors.com/",
+        "imageurl": "images/allcustom.png"
+      },
+      {
+        "business": "Hughes Supply",
+        "address": "5756 Wagon Wheel Lane, Lakeside, AZ 85929",
+        "phone": "(928) 537-5788",
+        "website": "https://hughessupply.com/",
+        "imageurl": "images/hughes.png"
+      },
+      {
+        "business": "Elk Ridge Apartments",
+        "address": "1901 W. Deuce of Clubs, Show Low, AZ 85901 ",
+        "phone": "(928) 537-2620",
+        "website": "https://elkridgeapartments.com/",
+        "imageurl": "images/elkridge.png"
+      },
+      {
+        "business": "Pure Relaxation",
+        "address": "391 W Deuce of Clubs Ste B, Show Low, AZ  85901 ",
+        "phone": "(928) 358-7118",
+        "website": "http://www.purerelaxationbytysie.net/home.html",
+        "imageurl": "images/purerelaxation.png"
+      },
+      {
+        "business": "Navapache Chem-Dry",
+        "address": "5427 Aspen Ave. Pinedale, AZ 85934 ",
+        "phone": "(928) 537-8163",
+        "website": "https://www.navacd.com/",
+        "imageurl": "images/navapache.webp"
+      },
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      },
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      },
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      },
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      },
+      {
+        "business": "Hatch Toyota",
+        "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
+        "phone": "(928) 242-9007",
+        "website": "https://www.hatchtoyota.com/",
+        "imageurl": "images/hatch-toyota-logo.webp"
+      }
+    ]
+}  
