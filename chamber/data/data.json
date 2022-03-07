@@ -75,14 +75,14 @@
         "address": "4720 W. Maverick Ln, #102, Lakeside, AZ 85929 ",
         "phone": "(928) 779-0385",
         "website": "https://www.aroundthemountaindental.com/",
-        "imageurl": "images/around-the-mountain.png"
+        "imageurl": "images/around-the-mountain.webp"
       },
       {
         "business": "Audiology Inc., Hearing & Balance Services",
         "address": "2600 S. White Mountain Rd., Show Low, AZ 85901 ",
         "phone": "(928) 537-3456",
         "website": "https://www.audiologyinc.net/",
-        "imageurl": "images/audiology.png"
+        "imageurl": "images/audiology.webp"
       }
     ]
 }  
