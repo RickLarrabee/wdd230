@@ -12,21 +12,21 @@
         "address": "1780 Snow Creek Loop, Show Low, AZ 85901 ",
         "phone": "(520) 324-0000",
         "website": "http://hotchkissfinancial.com/",
-        "imageurl": "images/hotchkiss.png"
+        "imageurl": "images/hotchkiss.webp"
       },
       {
         "business": "All Custom Exteriors",
         "address": "1005 Snowflake Boulevard, Snowflake, AZ 85937",
         "phone": "(928) 536-7275",
         "website": "https://allcustomexteriors.com/",
-        "imageurl": "images/allcustom.png"
+        "imageurl": "images/allcustom.webp"
       },
       {
         "business": "Hughes Supply",
         "address": "5756 Wagon Wheel Lane, Lakeside, AZ 85929",
         "phone": "(928) 537-5788",
         "website": "https://hughessupply.com/",
-        "imageurl": "images/hughes.png"
+        "imageurl": "images/hughes.webp"
       },
       {
         "business": "Elk Ridge Apartments",
@@ -40,7 +40,7 @@
         "address": "391 W Deuce of Clubs Ste B, Show Low, AZ  85901 ",
         "phone": "(928) 358-7118",
         "website": "http://www.purerelaxationbytysie.net/home.html",
-        "imageurl": "images/purerelaxation.png"
+        "imageurl": "images/pure-relaxation.webp"
       },
       {
         "business": "Navapache Chem-Dry",
