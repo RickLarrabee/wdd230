@@ -353,7 +353,7 @@ form input.submitBtn:hover {
 .cards section {
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color:  #189AB4;
+  background-color:  #eee;
   border: 1px solid #bbb;
   display: flex;
   flex-direction: column;
