@@ -369,7 +369,6 @@ form input.submitBtn:hover {
 .cards img {
   width: auto;
   height: auto;
-  border: 1px solid rgb(3, 9, 92);
   border-radius: 10px;
 }
 
