@@ -4,35 +4,35 @@
         "business": "Hatch Toyota",
         "address": "1051 N. Automall Parkway, Show Low, AZ 85901",
         "phone": "(928) 242-9007",
-        "website": "https://www.hatchtoyota.com/",
+        "website": "https://www.hatchtoyota.com",
         "imageurl": "images/hatch-toyota-logo.webp"
       },
       {
         "business": "Hotchkiss Financial",
         "address": "1780 Snow Creek Loop, Show Low, AZ 85901 ",
         "phone": "(520) 324-0000",
-        "website": "http://hotchkissfinancial.com/",
+        "website": "http://hotchkissfinancial.com",
         "imageurl": "images/hotchkiss.webp"
       },
       {
         "business": "All Custom Exteriors",
         "address": "1005 Snowflake Boulevard, Snowflake, AZ 85937",
         "phone": "(928) 536-7275",
-        "website": "https://allcustomexteriors.com/",
+        "website": "https://allcustomexteriors.com",
         "imageurl": "images/allcustom.webp"
       },
       {
         "business": "Hughes Supply",
         "address": "5756 Wagon Wheel Lane, Lakeside, AZ 85929",
         "phone": "(928) 537-5788",
-        "website": "https://hughessupply.com/",
+        "website": "https://hughessupply.com",
         "imageurl": "images/hughes.webp"
       },
       {
         "business": "Elk Ridge Apartments",
         "address": "1901 W. Deuce of Clubs, Show Low, AZ 85901 ",
         "phone": "(928) 537-2620",
-        "website": "https://elkridgeapartments.com/",
+        "website": "https://elkridgeapartments.com",
         "imageurl": "images/elkridge.webp"
       },
       {
@@ -46,42 +46,42 @@
         "business": "Navapache Chem-Dry",
         "address": "5427 Aspen Ave. Pinedale, AZ 85934 ",
         "phone": "(928) 537-8163",
-        "website": "https://www.navacd.com/",
+        "website": "https://www.navacd.com",
         "imageurl": "images/navapache.webp"
       },
       {
         "business": "Center for the Arts",
         "address": "251 N. Penrod Rd., Show Low, AZ 85901 ",
         "phone": "(928) 532-2296",
-        "website": "http://www.aawmcenterforthearts.com/",
+        "website": "http://www.aawmcenterforthearts.com",
         "imageurl": "images/center-for-arts.webp"
       },
       {
         "business": "BEST Mountain Blinds",
         "address": "Pinetop-Lakside, AZ 85929",
         "phone": "(928) 537-7778",
-        "website": "https://mountain-blinds.com/",
+        "website": "https://mountain-blinds.com",
         "imageurl": "images/mountain-blinds.webp"
       },
       {
         "business": "Sunstate",
         "address": "1500 S White Mountain Rd, Show Low , AZ 85901 USA",
         "phone": "(888) 368-2024",
-        "website": "https://sunstatetech.com/",
+        "website": "https://sunstatetech.com",
         "imageurl": "images/sunstate.webp"
       },
       {
         "business": "Around the Mountain Pediatric Dentistry",
         "address": "4720 W. Maverick Ln, #102, Lakeside, AZ 85929 ",
         "phone": "(928) 779-0385",
-        "website": "https://www.aroundthemountaindental.com/",
+        "website": "https://www.aroundthemountaindental.com",
         "imageurl": "images/around-the-mountain.webp"
       },
       {
         "business": "Audiology Inc., Hearing & Balance Services",
         "address": "2600 S. White Mountain Rd., Show Low, AZ 85901 ",
         "phone": "(928) 537-3456",
-        "website": "https://www.audiologyinc.net/",
+        "website": "https://www.audiologyinc.net",
         "imageurl": "images/audiology.webp"
       }
     ]

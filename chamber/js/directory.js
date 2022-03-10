@@ -1,4 +1,5 @@
 const requestURL = 'https://ricklarrabee.github.io/wdd230/chamber/data/data.json';
+const listView = 
 
 
 fetch(requestURL)
@@ -21,7 +22,7 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = company.business;
-    p.innerHTML = company.address 
+    p.innerHTML = `${company.address} <br/> ${company.phone} <br/> ${company.website}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', company.imageurl);
@@ -32,8 +33,6 @@ fetch(requestURL)
     card.appendChild(portrait);
     card.appendChild(h2);
     card.appendChild(p);
-    
-   
 
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card)
