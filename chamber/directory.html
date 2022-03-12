@@ -13,7 +13,7 @@
     <script defer src="js/commerce.js"></script>
     <script defer src="js/directory.js"></script>
   </head>
-  <body>
+  <body onload="companyCards()">
     <div class="content">
       <div class="banner">
         <h3>
@@ -56,8 +56,8 @@
             <div class="directoryHeader">
                 <h2>Business Directory</h2>
                 <div class="listCardsBtns">
-                    <button id="listBtn"><img src="images/list.png" alt="list button"></button>
-                    <button id="cardBtn"><img src="images/cards.png" alt="cards button"></button>
+                    <button onclick="companyList()" id="listBtn"><img src="images/list.png" alt="list button"></button>
+                    <button onclick="companyCards()" id="cardBtn"><img src="images/cards.png" alt="cards button"></button>
                 </div>  
             </div>
           <div class="cards"></div>
