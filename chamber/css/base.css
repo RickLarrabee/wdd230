@@ -386,6 +386,15 @@ form input.submitBtn:hover {
   border-radius: 10px;
 }
 
+.list tr, .list th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 /*----------------Footer Style--------------*/
 
 footer {

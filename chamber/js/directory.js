@@ -2,6 +2,7 @@ const requestURL = 'https://ricklarrabee.github.io/wdd230/chamber/data/data.json
 
 function companyCards () {
     document.querySelector(".cards").innerHTML = '';
+    document.querySelector(".list").innerHTML = '';
     fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -40,6 +41,7 @@ function companyCards () {
 }
 
 function companyList () {
+    document.querySelector(".list").innerHTML = '';
     document.querySelector(".cards").innerHTML = '';
     fetch(requestURL)
     .then(function (response) {
@@ -53,12 +55,12 @@ function companyList () {
 
     function displayCompanies(company) {
         // Create elements to add to the document
-        const cards = document.querySelector(".cards");
-        let card = document.createElement('ol');
-        let companyName = document.createElement('li');
-        let address = document.createElement('li');
-        let phone = document.createElement('li');
-        let website = document.createElement('li');
+        const lists = document.querySelector(".list");
+        let list = document.createElement('tr');
+        let companyName = document.createElement('th');
+        let address = document.createElement('th');
+        let phone = document.createElement('th');
+        let website = document.createElement('th');
     
         // Change the textContent property of the h2 element to contain the prophet's full name
         companyName.textContent = company.business;
@@ -67,12 +69,12 @@ function companyList () {
         website.innerHTML = `<a href=${company.website} target="_blank">${company.website}</a>`;
     
         // Add/append the section(card) with the h2 element
-        card.appendChild(companyName);
-        card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(website);
+        list.appendChild(companyName);
+        list.appendChild(address);
+        list.appendChild(phone);
+        list.appendChild(website);
 
         // Add/append the existing HTML div with the cards class with the section(card)
-        cards.appendChild(card)
+        lists.appendChild(list)
     }
 }
