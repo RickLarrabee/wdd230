@@ -51,6 +51,11 @@ header {
 
 .headerLogo {
   padding: 10px;
+  height: 60px;
+}
+
+.headerLogo.img {
+  max-height: 100%;
 }
 
 /*-----------------Site Navigation------------------*/
@@ -225,6 +230,24 @@ nav ul li.active a {
 
 .join {
   display: none;
+}
+
+.joinUsBtn, .joinUsHeroBtn {
+  border-radius: 5px;
+  background-color: #80ced6;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+.joinUsBtn:hover, .joinUsHeroBtn:hover {
+  background-color: #75E6DA;
+}
+
+.joinUsHeroBtn {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
 }
 
 .event {
