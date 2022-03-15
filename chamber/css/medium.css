@@ -101,3 +101,11 @@
     display: flex;
   }
 }
+
+/*-----------Directory Style--------------*/
+
+.list tr {
+  border: 1px solid black;
+  padding: 8px;
+  column-count: 1;
+}

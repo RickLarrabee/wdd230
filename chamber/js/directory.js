@@ -66,7 +66,7 @@ function companyList () {
         companyName.textContent = company.business;
         address.textContent = company.address;
         phone.textContent = company.phone;
-        website.innerHTML = `<a href=${company.website} target="_blank">${company.website}</a>`;
+        website.innerHTML = `<a href=${company.website} target="_blank">${company.displayurl}</a>`;
     
         // Add/append the section(card) with the h2 element
         list.appendChild(companyName);
