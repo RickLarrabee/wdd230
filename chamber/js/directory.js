@@ -57,10 +57,10 @@ function companyList () {
         // Create elements to add to the document
         const lists = document.querySelector(".list");
         let list = document.createElement('tr');
-        let companyName = document.createElement('th');
-        let address = document.createElement('th');
-        let phone = document.createElement('th');
-        let website = document.createElement('th');
+        let companyName = document.createElement('td');
+        let address = document.createElement('td');
+        let phone = document.createElement('td');
+        let website = document.createElement('td');
     
         // Change the textContent property of the h2 element to contain the prophet's full name
         companyName.textContent = company.business;

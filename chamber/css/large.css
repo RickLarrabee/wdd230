@@ -197,4 +197,21 @@
 		grid-template-columns: 1fr 1fr;
 		column-gap: 10px;
 	}
+
+	/*--------------Directory Styling-----------------*/
+
+	.list td {
+		border: 1px solid black;
+	}
+
+	.list tr {
+		border: none;
+	}
+
+	.list tr, .list td {
+		height: 45px;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
 }

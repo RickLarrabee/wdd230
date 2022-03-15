@@ -409,10 +409,13 @@ form input.submitBtn:hover {
   border-radius: 10px;
 }
 
-.list tr, .list th {
+.list tr{
   border: 1px solid black;
-  padding: 8px;
 }
+.list tr, .list td {
+  display: flex;
+  flex-direction: column;
+  }
 
 .list tr:nth-child(even) {
   background-color: #f2f2f2;
@@ -429,6 +432,7 @@ footer {
 }
 
 .footerLogo {
+  height: 50px;
   padding-right: 10px;
 }
 
