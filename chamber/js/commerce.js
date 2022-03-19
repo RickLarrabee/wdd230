@@ -28,18 +28,17 @@ if (weekday > 0 && weekday < 3) {
 
 
 // calculate the time in days since the users last visit to the site
-let currentVisit = new Date();
+let currentVisit = new Date("03/22/2022");
 let lastVisit = window.localStorage.getItem("visitDate");
 lastVisit = new Date(lastVisit);
 const visitDate = document.querySelector("#lastVisit");
 const oneDay = (1000*60*60*24);
 
-let daysSinceVisit = Math.round(currentVisit.getTime() - lastVisit.getTime()  / oneDay);
-if (daysSinceVisit !== 0){
+let timeDifference = currentVisit.getTime() - lastVisit.getTime();
+let dateDifference = Math.round(timeDifference /(1000*60*60*24))
+if (dateDifference <= 0){
    visitDate.textContent = `It has been less than 1 day since you visited our site.`
 } else {   
-   visitDate.textContent = `It has been ${daysSinceVisit} days since your last visit. Welcome Back`
+   visitDate.textContent = `It has been ${dateDifference} days since your last visit. Welcome Back`
 };
-console.log (lastVisit)
-console.log (daysSinceVisit)
 window.localStorage.setItem("visitDate", currentVisit);
