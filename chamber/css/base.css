@@ -275,8 +275,11 @@ nav ul li.active a {
 }
 
 .weather h3 {
-  margin: 0;
-  padding: 10px;
+  margin: 0px;
+}
+
+.weather :first-child {
+  margin: 10px 0px 0px 0px;
 }
 
 /*------------------Discover Page Layout-----------------------*/
@@ -340,7 +343,7 @@ form p {
 form label.sbs {
   display: block;
   font-size: 1em;
-  width: 100;
+  width: 100%;
   padding: .75em 0;
 }
 
@@ -359,7 +362,7 @@ form input.submitBtn:hover {
 
 .directoryHeader {
   display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
 

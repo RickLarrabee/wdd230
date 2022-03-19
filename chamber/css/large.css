@@ -31,14 +31,14 @@
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		grid-template-rows: 1fr 1fr 1fr;
-		grid-gap: 1em;
+		grid-gap: 10px;
 	}
 
 	.event {
 		grid-column: 1/2;
 		grid-row: 1/2;
 		height: 200px;
-		width: 200px;
+		width: 210px;
 		border: solid;
 		border-radius: 10px;
 		background-color: #eee;
@@ -55,30 +55,14 @@
 		grid-column: 1/2;
 		grid-row: 2/3;
 		height: 200px;
-		width: 200px;
+		width: 210px;
 		border: solid;
 		border-radius: 10px;
 		background-color: #eee;
-	}
-
-	.weatherAll {
 		text-align: center;
 		align-items: center;
-	  }
-	  
-	  .weatherInfo {
-		border-bottom: solid;
-	  }
-	  
-	  .weatherInfo h3 {
-		margin: 0;
-		padding: 10px;
-	  }
-	  
-	  .weatherInfo img {
-		float: left;
-	  }
-
+	}
+	
 	.join {
 		grid-column: 1/2;
 		grid-row:3/4;
