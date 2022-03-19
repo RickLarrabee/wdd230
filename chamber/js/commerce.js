@@ -33,11 +33,12 @@ const oneDay = 1000*60*60*24;
 let lastVisit = window.localStorage.getItem("visitDate");
 lastVisit = new Date(lastVisit);
 let currentVisit = new Date();
-let daysSinceVisit = Math.round(currentVisit.getTime() - lastVisit.getTime() / oneDay);
+let daysSinceVisit = Math.round(lastVisit.getTime() - currentVisit.getTime() / oneDay);
 if (daysSinceVisit !== 0){
    visitDate.textContent = `It has been less than 1 day since you visited our site.`
 } else {   
    visitDate.textContent = `It has been ${daysSinceVisit} days since your last visit. Welcome Back`
 };
-
+console.log (lastVisit)
+console.log (daysSinceVisit)
 window.localStorage.setItem("visitDate", currentVisit);

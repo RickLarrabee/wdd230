@@ -12,7 +12,7 @@ fetch(apiURL)
     const desc = jsObject.weather[0].description;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
-    document.querySelector("figcaption").textContent = desc;
+    document.querySelector("#caption").textContent = desc;
     document.querySelector(".windSpeed").innerHTML = windSpeed;
     if (temp <= 50 && windSpeed > 3.0) {
       windChill = (35.74+(0.6215*temp)-(35.75*(windSpeed**0.16))+(0.4275*temp*(windSpeed**0.16))).toFixed(0);

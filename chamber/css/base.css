@@ -262,6 +262,7 @@ nav ul li.active a {
   height: 100%;
   border-radius: 10px;
   image-rendering: pixelated;
+  
 }
 
 .weather {
@@ -269,24 +270,13 @@ nav ul li.active a {
   border: solid;
   border-radius: 10px;
   background-color: #eee;
-}
-
-.weatherAll {
   text-align: center;
   align-items: center;
 }
 
-.weatherInfo {
-  border-bottom: solid;
-}
-
-.weatherInfo h3 {
+.weather h3 {
   margin: 0;
   padding: 10px;
-}
-
-.weatherInfo img {
-  float:left;
 }
 
 /*------------------Discover Page Layout-----------------------*/
