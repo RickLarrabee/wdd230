@@ -23,9 +23,9 @@ dayMessage = ''
 const weekday = d.getDay();
 if (weekday > 0 && weekday < 3) {
    dayMessage = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+   document.querySelector('.joinUsBanner').innerHTML = dayMessage
 }
-console.log(dayMessage)
-document.querySelector('.joinUsBanner').innerHTML = dayMessage
+
 
 // calculate the time in days since the users last visit to the site.
 const visitDate = document.querySelector("#lastVisit");
