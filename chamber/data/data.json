@@ -6,7 +6,8 @@
         "phone": "(928) 242-9007",
         "displayurl": "www.hatchtoyota.com",
         "website": "https://www.hatchtoyota.com",
-        "imageurl": "images/hatch-toyota-logo.webp"
+        "imageurl": "images/hatch-toyota-logo.webp",
+        "memberlevel": "gold"
       },
       {
         "business": "Hotchkiss Financial",
@@ -14,7 +15,8 @@
         "phone": "(520) 324-0000",
         "displayurl": "www.hotchkissfinancial.com",
         "website": "http://hotchkissfinancial.com",
-        "imageurl": "images/hotchkiss.webp"
+        "imageurl": "images/hotchkiss.webp",
+        "memberlevel": "gold"
       },
       {
         "business": "All Custom Exteriors",
@@ -22,7 +24,8 @@
         "phone": "(928) 536-7275",
         "displayurl": "www.allcustomexteriors.com",
         "website": "https://allcustomexteriors.com",
-        "imageurl": "images/allcustom.webp"
+        "imageurl": "images/allcustom.webp",
+        "memberlevel": "gold"
       },
       {
         "business": "Hughes Supply",
@@ -30,7 +33,8 @@
         "phone": "(928) 537-5788",
         "displayurl": "www.hughessupply.com",
         "website": "https://hughessupply.com",
-        "imageurl": "images/hughes.webp"
+        "imageurl": "images/hughes.webp",
+        "memberlevel": "bronze"
       },
       {
         "business": "Elk Ridge Apartments",
@@ -38,7 +42,8 @@
         "phone": "(928) 537-2620",
         "displayurl": "www.elkridgeapartments.com",
         "website": "https://elkridgeapartments.com",
-        "imageurl": "images/elkridge.webp"
+        "imageurl": "images/elkridge.webp",
+        "memberlevel": "silver"
       },
       {
         "business": "Pure Relaxation",
@@ -46,7 +51,8 @@
         "phone": "(928) 358-7118",
         "displayurl": "www.purerelaxationbytysie.net",
         "website": "http://www.purerelaxationbytysie.net/home.html",
-        "imageurl": "images/pure-relaxation.webp"
+        "imageurl": "images/pure-relaxation.webp",
+        "memberlevel": "bronze"
       },
       {
         "business": "Navapache Chem-Dry",
@@ -54,7 +60,8 @@
         "phone": "(928) 537-8163",
         "displayurl": "www.navacd.com",
         "website": "https://www.navacd.com",
-        "imageurl": "images/navapache.webp"
+        "imageurl": "images/navapache.webp",
+        "memberlevel": "bronze"
       },
       {
         "business": "Center for the Arts",
@@ -62,7 +69,8 @@
         "phone": "(928) 532-2296",
         "displayurl": "www.aawmcenterforthearts.com",
         "website": "http://www.aawmcenterforthearts.com",
-        "imageurl": "images/center-for-arts.webp"
+        "imageurl": "images/center-for-arts.webp",
+        "memberlevel": "NP"
       },
       {
         "business": "BEST Mountain Blinds",
@@ -70,7 +78,8 @@
         "phone": "(928) 537-7778",
         "displayurl": "mountain-blinds.com",
         "website": "https://www.mountain-blinds.com",
-        "imageurl": "images/mountain-blinds.webp"
+        "imageurl": "images/mountain-blinds.webp",
+        "memberlevel": "sliver"
       },
       {
         "business": "Sunstate",
@@ -78,7 +87,8 @@
         "phone": "(888) 368-2024",
         "displayurl": "www.sunstatetech.com",
         "website": "https://sunstatetech.com",
-        "imageurl": "images/sunstate.webp"
+        "imageurl": "images/sunstate.webp",
+        "memberlevel": "bronze"
       },
       {
         "business": "Around the Mountain Pediatric Dentistry",
@@ -86,7 +96,8 @@
         "phone": "(928) 779-0385",
         "displayurl": "www.aroundthemountaindental.com",
         "website": "https://www.aroundthemountaindental.com",
-        "imageurl": "images/around-the-mountain.webp"
+        "imageurl": "images/around-the-mountain.webp",
+        "memberlevel": "silver"
       },
       {
         "business": "Audiology Inc., Hearing & Balance Services",
@@ -94,7 +105,8 @@
         "phone": "(928) 537-3456",
         "displayurl": "www.audiologyinc.net",
         "website": "https://www.audiologyinc.net",
-        "imageurl": "images/audiology.webp"
+        "imageurl": "images/audiology.webp",
+        "memberlevel": "bronze"
       }
     ]
 }  

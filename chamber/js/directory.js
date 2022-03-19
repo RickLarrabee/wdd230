@@ -78,3 +78,4 @@ function companyList () {
         lists.appendChild(list)
     }
 }
+
