@@ -199,4 +199,12 @@
 		flex-direction: row;
 		width: 100%;
 	}
+
+		/*---------------Contact Form Styling-----------------*/
+
+		.contactFormContent {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			column-gap: 10px;
+		}
 }

@@ -347,6 +347,13 @@ form label.sbs {
   padding: .75em 0;
 }
 
+form iframe {
+  height: 400px;
+  width: 400px;
+  border: solid black;
+  border-radius: 10px;
+}
+
 form input.submitBtn {
   border: none;
   background-color: #618685;
@@ -356,6 +363,11 @@ form input.submitBtn {
 
 form input.submitBtn:hover {
   background-color: #80ced6;
+}
+
+/*----------------Thank You Style------------*/
+.thankYouMainContent {
+  text-align: center;
 }
 
 /*----------------Directory Style------------*/
@@ -415,6 +427,12 @@ form input.submitBtn:hover {
   background-color: #f2f2f2;
 }
 
+/*--------------------------Contact Page Layout--------------------*/
+
+.contactMainContent {
+  padding: 1em;
+}
+
 /*----------------Footer Style--------------*/
 
 footer {
@@ -436,3 +454,5 @@ footer {
   border-top: solid #eee;
   padding: 10px;
 }
+
+

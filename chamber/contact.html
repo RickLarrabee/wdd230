@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Show Low Chamber of Commerce Site" />
-    <title>Show Low City Chamber Discover Page</title>
+    <title>Show Low City Chamber Join Page</title>
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/commerce.js"></script>
-    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/join.js"></script>
   </head>
   <body>
     <div class="content">
@@ -34,10 +34,10 @@
             <ul class="navigation">
               <li><a class="ham" href="#"></a></li>
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="discover.html">Discover</a></li>
-              <li><a href="directory.html">Directory</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="discover.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li class = "active"><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
           <div class="socialButtons">
@@ -52,52 +52,34 @@
         <span class="date"></span>
       </header>
       <main>
-        <div class="discoverMainContent">
-          <div class="discoverColumnOne">
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/ski-resort.webp" alt="image of a ski resort"/>
-            </picture>
-            <h2>Show Low is close to great ski resorts.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/ski-lift.webp" alt="image of a ski resort">
-            </picture>
-            <h2>Come and enjoy skiing every winter.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/family-img.webp" alt="picture of a family jumping">
-            </picture>
-            <h2>Show Low is a great place for families.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/valley-img.webp" alt="image of a valley">
-            </picture>
-            <h2>Show Low is a great place to raise a family.</h2>
-            <picture> 
-              <img src="images/placeHolder.webp" data-src="images/camping-people.webp" alt="family camping">
-            </picture>
-            <h2>Show Low has world class camping.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/night-sky.webp" alt="sunset in the mountains">
-            </picture>
-            <h2>Evening skys are a sight to see.</h2>
-            <picture> 
-              <img src="images/placeHolder.webp" data-src="images/fishing.webp" alt="people fishing on a boat">
-            </picture>
-            <h2>Show Low is the gateway to world class fishing.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/volleyball.webp" alt="girls playing volleyball">
-            </picture>
-            <h2>Show Low has great youth sports.</h2>
-            <picture>
-              <img src="images/placeHolder.webp" data-src="images/mountain-side.webp" alt="mountain valley">
-            </picture>
-            <h2>Show Low has beautiful mountain views.</h2>
-          </div>
-          <div class="discoverColumnTwo">
-              <h2>Show Low Information</h2>
-              <h3>Elevation: 6,345 Feet</h3>
-              <h3>Population: 11,130 (2019)</h3>
-              <h3>Average high temperature: 83&deg; F</h3>
-              <h3>Average low temperature: 23&deg; F</h3>
-          </div>
+        <div class="contactMainContent">
+            <form method="get"action="contactthankyou.html">
+                <div class="contactFormContent">
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <label class="top"> First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Title <input type="text" name="organization-title" pattern="[A-Za-z -]{7,}" 
+                        title="Title minimum of 7 characters, a-z, space or -, cannot contain numbers"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="joe.smith@abc.com" required></label>
+                    <label class="top">Cell Phone Number* <input type="tel" name="tel" required></label>
+                    <label class="top">Business Name <input type="title text" name="organization"></label>
+                    <label class="top">Business Description <textarea type="textarea" name="description"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Show Low Chamber Contact information</legend>
+                    <p>Phone Number: 555-555-5555</p>
+                    <p>Email Address: showlowchamber@email.com</p>
+                    <p>Address: 81 E. Deuce of Clubs, Show Low, AZ 85901</p>
+                    <p>Monthly news letter, Discounts at select merchants</p>
+                    <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" 
+                    marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=81%20Deuce%20of%20Clubs%20+(Show%20Low%20Chamber)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                </fieldset>
+                </div>
+                <input type="submit" value="Submit Contact" class="submitBtn">
+            </form>
+            <p hidden><Span id="timeSubmit"></Span></p>
         </div>
       </main>
       <footer>
