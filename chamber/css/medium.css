@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
-    grid-gap: 1em;
+    grid-gap: 5px;
   }
 
   .hero {
@@ -33,32 +33,19 @@
   .sideBar {
     grid-column: 1/4;
     grid-row: 3/4;
+    border: solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border: solid;
     border-radius: 10px;
     background-color: #eee;
   }
 
-  .spotLight1 {
-    height: 200px;
-    width: 350px;
-    border: solid;
-    border-radius: 10px;
-    background-color: #eee;
+  .spotlight1 {
+    float: left;
   }
 
-  .spotLight2 {
-    height: 200px;
-    width: 350px;
-    border: solid;
-    border-radius: 10px;
-    background-color: #eee;
-  }
-
-  .spotLight3 {
-    display: none;
+  .spotlight2 {
+    float: right;
   }
 
   .join {

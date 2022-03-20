@@ -21,7 +21,7 @@ function companyCards () {
         let portrait = document.createElement('img');
         let p = document.createElement('p');
     
-        // Change the textContent property of the h2 element to contain the prophet's full name
+        // Change the textContent property of the h2 element to contain the companies's full name
         h2.textContent = company.business;
         p.innerHTML = `${company.address} <br/> ${company.phone} <br/> <a href=${company.website} target="_blank">${company.displayurl}</a>`;
     
@@ -36,7 +36,7 @@ function companyCards () {
         card.appendChild(p);
 
         // Add/append the existing HTML div with the cards class with the section(card)
-        cards.appendChild(card)
+        cards.appendChild(card);
     }
 }
 
@@ -62,7 +62,7 @@ function companyList () {
         let phone = document.createElement('td');
         let website = document.createElement('td');
     
-        // Change the textContent property of the h2 element to contain the prophet's full name
+        // Change the textContent property of the h2 element to contain the companies's full name
         companyName.textContent = company.business;
         address.textContent = company.address;
         phone.textContent = company.phone;
@@ -75,7 +75,7 @@ function companyList () {
         list.appendChild(website);
 
         // Add/append the existing HTML div with the cards class with the section(card)
-        lists.appendChild(list)
+        lists.appendChild(list);
     }
 }
 

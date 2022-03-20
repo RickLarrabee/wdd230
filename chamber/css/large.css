@@ -101,6 +101,7 @@
 	.sideBar {
 		grid-column: 5/6;
 		grid-row: 1/4;
+		width: 350px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -109,29 +110,12 @@
 		background-color: #eee;
 	}
 
-	.spotLight1 {
-		height: 200px;
-		width: 175px;
-		border: solid;
-		border-radius: 10px;
-		background-color: #eee;
+	.spotlight1, .spotlight2, .spotlight3 {
+		float: none;
 	}
 
-	.spotLight2 {
-		height: 200px;
-		width: 175px;
-		border: solid;
-		border-radius: 10px;
-		background-color: #eee;
-	}
-
-	.spotLight3 {
-		display:block;
-		height: 200px;
-		width: 175px;
-		border: solid;
-		border-radius: 10px;
-		background-color: #eee;
+	.spotlight3 {
+		display: block;
 	}
 
 	.chamberInfo {
