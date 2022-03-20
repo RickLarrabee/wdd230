@@ -193,6 +193,10 @@ nav ul li.active a {
   text-align: center;
 }
 
+.spotlight1:hover, .spotlight2:hover, .spotlight3:hover {
+  background-color: #d5f4e6;
+}
+
 .spotlight3 {
   display: none;
 }
