@@ -405,6 +405,11 @@ form input.submitBtn:hover {
   padding: 1em;
 }
 
+.contactFormContent img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 /*----------------Footer Style--------------*/
 
 footer {
