@@ -49,8 +49,8 @@
         "services": ["Distribution Center near by"],
         "history": ["11 September 1998 Announced",
            "5 December 1998 Groundbreaking", "16 October 1999 Dedication"],
-        "ordinance-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",,
-        "session-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",,
+        "ordinance-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "session-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
         "closure-schedule": ["Saturday, 2 April 2022", "Monday, 11 July 2022 - Monday, 25 July 2022",
           "Saturday, 1 October 2022", "Thursday, 24 November 2022",
           "Saturday, 24 December 2022"]
