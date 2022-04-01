@@ -7,10 +7,10 @@
         "email": "info@dctemple.org",
         "services": ["Clothing Rental", "Cafeteria", "Distribution Center"],
         "history": ["15 November 1968 Announced", "7 December 1968 Groundbreaking", "19 November 1974 Dedication", "14 August 2022 Rededication"],
-        "ordinance-schedule": "Closed during renovation",
-        "session-schedule": "Closed during Renovation",
-        "closure-schedule": ["Rededication scheduled 14 August 2022"]
-
+        "ordinanceSchedule": "Closed during renovation",
+        "sessionSchedule": "Closed during Renovation",
+        "closureSchedule": ["Rededication scheduled 14 August 2022"],
+        "imgurl": "images/dc_temple.webp"
       },
       {
         "name": "Philadelphia Pennsylvania",
@@ -19,12 +19,12 @@
         "email": "info@philadelphiatemple.org",
         "services": ["Clothing Rental", "Distribution Center near by"],
         "history": ["4 October 2008 Announced", "17 September 2011 Groundbreaking", "18 September 2016 Dedication"],
-        "ordinance-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "session-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "closure-schedule": ["Monday, 21 March 2022 - Monday, 4 April 2022", "Monday, 19 September 2022 - Monday, 3 October 2022",
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "sessionSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "closureSchedule": ["Monday, 21 March 2022 - Monday, 4 April 2022", "Monday, 19 September 2022 - Monday, 3 October 2022",
           "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022",
-          "Saturday, 31 December 2022"]
-
+          "Saturday, 31 December 2022"],
+        "imgurl": "images/philadelphia_temple.webp"
       },
       {
         "name": "Raleigh North Carolina",
@@ -33,13 +33,13 @@
         "email": "info@raleightemple.org",
         "services": ["No services available"],
         "history": ["3 September 1998 Announced", "6 February 1999 Groundbreaking", "18 December 1999 Dedication", "13 October 2019 Rededication"],
-        "ordinance-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "session-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "closure-schedule": ["Saturday, 2 April 2022 - Sunday, 3 April 2022", "Monday, 9 May 2022 - Monday, 23 May 2022",
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "sessionSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "closureSchedule": ["Saturday, 2 April 2022 - Sunday, 3 April 2022", "Monday, 9 May 2022 - Monday, 23 May 2022",
           "Saturday, 1 October 2022 - Sunday, 2 October 2022", "Monday, 31 October 2022 - Monday, 14 November 2022",
           "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022",
-          "Saturday, 31 December 2022 (Limited Operations)"]
-
+          "Saturday, 31 December 2022 (Limited Operations)"],
+        "imgurl": "images/raleigh_temple.webp"
       },
       {
         "name": "Columbia South Carolina",
@@ -49,12 +49,12 @@
         "services": ["Distribution Center near by"],
         "history": ["11 September 1998 Announced",
            "5 December 1998 Groundbreaking", "16 October 1999 Dedication"],
-        "ordinance-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "session-schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
-        "closure-schedule": ["Saturday, 2 April 2022", "Monday, 11 July 2022 - Monday, 25 July 2022",
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "sessionSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "closureSchedule": ["Saturday, 2 April 2022", "Monday, 11 July 2022 - Monday, 25 July 2022",
           "Saturday, 1 October 2022", "Thursday, 24 November 2022",
-          "Saturday, 24 December 2022"]
-
+          "Saturday, 24 December 2022"],
+        "imgurl": "images/columbia_temple.webp"
       }
     ]
 }  
