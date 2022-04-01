@@ -24,7 +24,7 @@ fetch(requestURL)
     p.innerHTML = `address: ${temple.address} <br/> phone: ${temple.phone} <br/> email: ${temple.email}` 
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', temple.imageurl);
+    portrait.setAttribute('src', temple.imagurl);
     portrait.setAttribute('alt', `Portrait of ${temple.name}`);
     portrait.setAttribute('loading', 'lazy');
   
