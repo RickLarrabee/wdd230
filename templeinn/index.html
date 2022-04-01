@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temple Inns and Suites website" />
+    <title>Temple Inns and Suites</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/index.js"></script>
+    <script defer src="js/nav.js"></script>
+    <script defer src="js/templeslide.js"></script>
+    <script defer src="js/weather.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="stickit">
+        <div class="header">
+          <div class="headerlogo">
+            <img src="images/templelogo.webp" alt="Temple Inn & Suites Logo" />
+          </div>
+          <nav>
+            <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="temple.html">Temple</a></li>
+              <li><a href="reservation.html">Reservation</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="social">
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="images/facebooklogo.webp" alt="Facebook logo"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="images/instagramlogo.webp" alt="Instagram logo"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img src="images/twitterlogo.webp" alt="Twitter logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="homecontent">
+        <div class="slide-reserve">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="images/dc_temple.webp" alt="DC Temple" />
+            </div>
+
+            <div class="mySlides fade">
+              <img
+                src="images/columbia_sc_temple.webp"
+                alt="Columbia SC Temple"
+              />
+            </div>
+
+            <div class="mySlides fade">
+              <img
+                src="images/philadelphia_temple.webp"
+                alt="Philadelphia PA Temple"
+              />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/raleigh_temple.webp" alt="Raleigh NC Temple" />
+            </div>
+          </div>
+          <form
+            class="availability"
+            action="reservation.html"
+            onsubmit="reservation_submit()"
+          >
+            <label for="location">location</label>
+            <select name="location" id="location">
+              <option value="dc">Washington DC</option>
+              <option value="pa">Philadelphia, PA</option>
+              <option value="nc">Raleigh, NC</option>
+              <option value="sc">Columbia, SC</option>
+            </select>
+            <label for="checkin">Check In</label>
+            <input type="date" name="date" id="checkin" />
+            <label for="checkout">Check Out</label>
+            <input type="date" name="date" id="checkout" /><br />
+            <input
+              type="submit"
+              value="Complete Reservation"
+              id="reservationsubmit"
+            />
+          </form>
+        </div>
+        <div class="lower-home">
+          <div class="information">
+            <h1>Temple Inn & Suites</h1>
+            <p>
+              Our mission is to make your time at the Temple as meaningful as
+              earthly possible.<br />
+              This is why we strive to give you all the comforts of home.<br />
+              Let us do all the work while you enjoy your time in the Temple.
+            </p>
+          </div>
+          <div class="templeinfo">
+            <h1>Washington DC Temple</h1>
+            <p>
+              <strong>Address</strong><br />
+              9900 Stoneybrook Dr <br />
+              Kensington MD 20895-3199 <br />
+              United States
+            </p>
+            <p>
+              <strong>Telephone</strong><br />
+              301-588-0650
+            </p>
+            <p>
+              <strong>Services</strong><br />
+              There are currently no services. <br />
+              The temple will be dedicated on August 14, 2022, <br />
+              and open for patrons on August 30, 2022.
+            </p>
+          </div>
+          <div class="home-weather"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerlogogroup">
+          <div class="footerlogo">
+            <img src="images/templelogo.webp" alt="Temple Inn & Suites Logo" />
+          </div>
+          <div class="address">
+            <p>
+              Temple Inn & Suites <br />
+              4840 Montgomery Ln #320 <br />
+              Bethesda, MD 20814 <br />
+              Phone: (555) 555-5555
+            </p>
+          </div>
+        </div>
+        <div class="maplocation">
+          <a
+            href="https://www.google.com/maps/place/4840+Montgomery+Ln+%23320,+Bethesda,+MD+20814/@38.9829903,-77.0998123,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97c8fab2e17:0xee511a20c1d4bf68!8m2!3d38.9829903!4d-77.0976236"
+            target="_blank"
+            >Map Location
+          </a>
+        </div>
+        <div class="contactformgroup">
+          <form class="contactform" action="contactsubmit.html" method="get" autocomplete="on">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" />
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="tel" />
+            <input type="submit" value="Contact Us" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temple Inns and Suites website" />
+    <title>Temple Inns and Suites</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/nav.js"></script>
+    <script defer src="js/reservationretrieve.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="stickit">
+        <div class="header">
+          <div class="headerlogo">
+            <img src="images/templelogo.webp" alt="Temple Inn & Suites Logo" />
+          </div>
+          <nav>
+            <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="temple.html">Temple</a></li>
+              <li class="active"><a href="reservation.html">Reservation</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="social">
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="images/facebooklogo.webp" alt="Facebook logo"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="images/instagramlogo.webp" alt="Instagram logo"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img src="images/twitterlogo.webp" alt="Twitter logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="reservation-content">
+        <form
+          class="reservation-form"
+          action="reservationsubmit.html"
+          onsubmit="reservation_submit ()"
+        >
+            <div class="row-one">
+              <label for="location">location</label>
+              <select name="location" id="location">
+                <option value="dc" selected="selected">Washington DC</option>
+                <option value="pa">Philadelphia, PA</option>
+                <option value="nc">Raleigh, NC</option>
+                <option value="sc">Columbia, SC</option>
+              </select>
+              <label for="checkin">Check In</label>
+              <input type="date" name="date" id="checkin" />
+              <label for="checkout">Check Out</label>
+              <input type="date" name="date" id="checkout" /><br />
+              <label for="ratetype">Preferred Rate</label>
+              <select name="ratetype" id="ratetype">
+                <option value="best">Best Available</option>
+                <option value="AAA">AAA Rate</option>
+                <option value="AARP">AARP</option>
+                <option value="gov">Government/Military Rate</option>
+                <option value="senior">Senior Discount</option>
+                <option value="corp">Corporate Special Rate</option>
+              </select>
+            </div>
+            <div class="row-two">
+              <label for="rooms">Number of Rooms</label>
+              <input
+                type="number"
+                name="rooms"
+                id="rooms"
+                min="1"
+                max="99"
+                value="1"
+              />
+              <label for="roomtype">Room Type</label>
+              <select name="roomtype" id="roomtype">
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="studio">Studio</option>
+                <option value="master">Master Suite</option>
+              </select>
+              <label for="adults">Number of Adults</label>
+              <input
+                type="number"
+                name="adults"
+                id="adults"
+                min="1"
+                max="99"
+                value="1"
+              />
+              <label for="children">Number of Children</label>
+              <input
+                type="number"
+                name="children"
+                id="children"
+                min="0"
+                max="99"
+                value="0"
+              />
+            </div>
+            <div class="row-three">
+              <label for="request">Special Requests</label>
+              <textarea name="request" id="request"></textarea>
+            </div>
+            <div class="row-four">
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname" required />
+              <label for="lname">Last Name</label>
+              <input type="text" name="fname" id="lname" required />
+              <label for="email">Email Address</label>
+              <input type="text" name="email" id="emial" required />
+              <label for="phone">Phone Number</label>
+              <input type="text" name="tel" id="phone" required />
+            </div>
+            <div class="row-five">
+              <label for="state">Home State / Country</label>
+              <input type="text" name="state" id="state" />
+              <input
+                type="submit"
+                value="Complete Reservation"
+                id="reservationsubmit"
+              />
+            </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerlogogroup">
+          <div class="footerlogo">
+            <img src="images/templelogo.webp" alt="Temple Inn & Suites Logo" />
+          </div>
+          <div class="address">
+            <p>
+              Temple Inn & Suites <br />
+              4840 Montgomery Ln #320 <br />
+              Bethesda, MD 20814 <br />
+              Phone: (555) 555-5555
+            </p>
+          </div>
+        </div>
+        <div class="maplocation">
+          <a
+            href="https://www.google.com/maps/place/4840+Montgomery+Ln+%23320,+Bethesda,+MD+20814/@38.9829903,-77.0998123,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97c8fab2e17:0xee511a20c1d4bf68!8m2!3d38.9829903!4d-77.0976236"
+            target="_blank"
+            >Map Location
+          </a>
+        </div>
+        <div class="contactformgroup">
+          <form
+            class="contactform"
+            action="contactsubmit.html"
+            method="get"
+            autocomplete="on"
+          >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" />
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone2" name="tel" />
+            <input type="submit" value="Contact Us" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

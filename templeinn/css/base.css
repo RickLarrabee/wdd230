@@ -1,0 +1,239 @@
+/* Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel&display=swap");
+
+/*-----------------content size setting-------------*/
+
+#stickit, 
+main,
+.footer {
+  max-width: 85em;
+  margin: auto;
+  text-align: center;
+}
+
+/*-----------------Font Assignment------------------*/
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC";
+}
+
+p,
+label,
+legend {
+  font-family: "Cinzel";
+}
+
+/*----------------Header Styling--------------------*/
+header {
+  position: sticky;
+  top: 0;
+  background-color: #e4f0d0;
+}
+
+.header {
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-----------------Site Navigation------------------*/
+
+nav {
+  padding: 10px;
+  order: 3;
+}
+
+.navigation {
+  list-style: none;
+  background-color: #c2d8b9;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+  border-radius: 10px;
+}
+
+.navigation li:last-child {
+  border-radius: 10px;
+}
+
+.navigation li {
+  display: none;
+  background-color: #c2d8b9;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.navigation a.ham::before {
+  content: "☰";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: #738290;
+  border-radius: 10px;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+    <ul class="navigation responsive">
+  */
+.responsive li {
+  display: block;
+}
+
+.responsive a.ham::before {
+  content: "X";
+  text-align: center;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/*----------------home main content styling----------*/
+
+.homecontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*----------------Temple Slide Show-----------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*----------------Availability Form-----------*/
+.availability {
+  padding: 5px;
+  background-color: #a1b5d8;
+  height: auto;
+  width: auto;
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  border: solid #738290;
+  border-radius: 10px;
+}
+
+.availability :nth-child(2),
+.availability :nth-child(4),
+.availability :nth-child(6),
+.availability :nth-child(8) {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*----------------lower home content---------*/
+
+.information {
+  border: solid #738290;
+  border-radius: 10px;
+}
+
+.templeinfo {
+  border: solid #738290;
+  border-radius: 10px;
+}
+
+/*----------------reservation form----------------*/
+
+
+/*----------------Footer Styling--------------*/
+footer {
+  background-color: #e4f0d0;
+}
+
+.footer {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footerlogogroup {
+  grid-row: 2/3;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactform {
+  grid-row: 1/2;
+  padding: 1em;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.contactform :nth-child(1),
+.contactform :nth-child(3),
+.contactform :nth-child(5) {
+  grid-column: 1/2;
+  padding: 2px;
+}
+
+.contactform :nth-child(2),
+.contactform :nth-child(4),
+.contactform :nth-child(6) {
+  grid-column: 2/3;
+  margin-bottom: 5px;
+}
+
+.contactform :nth-child(7) {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.maplocation {
+  grid-row: 3/4;
+}
