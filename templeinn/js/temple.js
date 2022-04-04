@@ -37,25 +37,61 @@ function change_temple () {
     function display_temple(temple) {
       // Create elements to add to the document
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      let temple_name = document.createElement('h2');
       let portrait = document.createElement('img');
-      let p = document.createElement('p');
+      let contact = document.createElement('p');
+      let services = document.createElement('ol');
+      let history = document.createElement('ol');
+      let schedule = document.createElement('ol');
 
-      h2.textContent = temple.name;
-      p.innerHTML = `Address: ${temple.address} <br/> phone: ${temple.phone} <br/>
-      email: ${temple.email}`       
+    
 
+      temple_name.textContent = temple.name;
+      contact.innerHTML = `Address: ${temple.address} <br/> phone: ${temple.phone} <br/>
+      email: ${temple.email}`;
+      services.innerHTML = "Services";
+      history.innerHTML = "Temple History";
+      schedule.innerHTML = "Closure Schedule";
+      
       // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+      portrait.setAttribute('class', 'temple-image')
       portrait.setAttribute('src', temple.imgurl);
       portrait.setAttribute('alt', `Portrait of ${temple.name}`);
       portrait.setAttribute('loading', 'lazy');
+      temple_name.setAttribute('class', 'temple-name')
+      contact.setAttribute('class', 'contact');
+      services.setAttribute('class', 'services');
+      history.setAttribute('class', 'history');
+      schedule.setAttribute('class', 'closure');
+
+      temple.services.forEach((item) =>{
+        let li = document.createElement("li");
+        li.innerHTML = item;
+        services.appendChild(li);
+      })
+
+      temple.history.forEach((item) =>{
+        let li = document.createElement("li");
+        li.innerHTML = item;
+        history.appendChild(li);
+      })
+
+      temple.closureSchedule.forEach((item) =>{
+        let li = document.createElement("li");
+        li.innerHTML = item;
+        schedule.appendChild(li);
+      })
   
       // Add/append the section(card) with the h2 element
-      card.appendChild(portrait);
-      card.appendChild(h2);
-      card.appendChild(p);
+      card.appendChild(temple_name);
+      card.appendChild(contact);
+      card.appendChild(services);
+      card.appendChild(history);
+      card.appendChild(schedule);
+
 
       // Add/append the existing HTML div with the cards class with the section(card)
+      cards.appendChild(portrait)
       cards.appendChild(card)
     }
   }

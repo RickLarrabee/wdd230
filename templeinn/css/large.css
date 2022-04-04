@@ -80,6 +80,57 @@
     grid-column: 2/3;
   }
 
+  /*----------------temple styling-----------------*/
+
+.cards {
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.cards section {
+  display: grid;
+  grid-template-columns: repeat(3, auto-fit);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: solid #738290;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cards section > p {
+  padding: 5px;
+}
+
+.cards img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.temple-name {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  font-weight: bold;
+}
+
+.contact {
+  grid-row:  2/3;
+  grid-column: 1/4;
+}
+
+.services {
+  grid-column: 1/2;
+}
+
+.history {
+  grid-column: 2/3;
+}
+
+.closure {
+  grid-column: 3/4;
+}
+
   /*----------------reservation page styling--------------*/
 
   .reservation-content {
