@@ -181,6 +181,49 @@ nav ul li.active a {
   border-radius: 10px;
 }
 
+/*----------------temple styling-----------------*/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  background-color: #75E6DA;
+  border-radius: 10px;
+}
+
+.cards section {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color:  #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cards section > p {
+  padding: 5px;
+}
+
+.cards img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.list tr{
+  border: 1px solid black;
+}
+.list tr, .list td {
+  display: flex;
+  flex-direction: column;
+  }
+
+.list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 /*----------------reservation form----------------*/
 
 

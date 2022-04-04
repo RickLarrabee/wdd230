@@ -1,6 +1,7 @@
 {
     "temples": [
       {
+        "id": "dc",
         "name": "Washington D.C.",
         "address": "9900 Stoneybrook Dr., Kensington, MD 20895-3199, United States",
         "phone": "(301) 588-0650",
@@ -13,6 +14,7 @@
         "imgurl": "images/dc_temple.webp"
       },
       {
+        "id": "pa",
         "name": "Philadelphia Pennsylvania",
         "address": "1739 Vine St, Philadelphia, PA 19103 United States",
         "phone": "(215) 398-3040",
@@ -27,6 +29,7 @@
         "imgurl": "images/philadelphia_temple.webp"
       },
       {
+        "id": "nc",
         "name": "Raleigh North Carolina",
         "address": "574 Bryan Dr, Apex, NC 27502-4127 United States",
         "phone": "(919) 362-4135",
@@ -42,6 +45,7 @@
         "imgurl": "images/raleigh_temple.webp"
       },
       {
+        "id": "sc",
         "name": "Columbia South Carolina",
         "address": "2905 Trotter Rd, Hopkins, SC 29061-9573 United States",
         "phone": "(803) 647-9472",
