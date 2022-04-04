@@ -2,6 +2,8 @@
     "temples": [
       {
         "id": "dc",
+        "lat:": 39.025669,
+        "lon": -77.07637,
         "name": "Washington D.C.",
         "address": "9900 Stoneybrook Dr., Kensington, MD 20895-3199, United States",
         "phone": "(301) 588-0650",
@@ -15,6 +17,8 @@
       },
       {
         "id": "pa",
+        "lat:": 39.952339,
+        "lon": -75.163788,
         "name": "Philadelphia Pennsylvania",
         "address": "1739 Vine St, Philadelphia, PA 19103 United States",
         "phone": "(215) 398-3040",
@@ -30,6 +34,8 @@
       },
       {
         "id": "nc",
+        "lat:": 35.732651,
+        "lon": -78.850288,
         "name": "Raleigh North Carolina",
         "address": "574 Bryan Dr, Apex, NC 27502-4127 United States",
         "phone": "(919) 362-4135",
@@ -46,6 +52,8 @@
       },
       {
         "id": "sc",
+        "lat:": 33.90432,
+        "lon": -80.877029,
         "name": "Columbia South Carolina",
         "address": "2905 Trotter Rd, Hopkins, SC 29061-9573 United States",
         "phone": "(803) 647-9472",
@@ -58,7 +66,7 @@
         "closureSchedule": ["Saturday, 2 April 2022", "Monday, 11 July 2022 - Monday, 25 July 2022",
           "Saturday, 1 October 2022", "Thursday, 24 November 2022",
           "Saturday, 24 December 2022"],
-        "imgurl": "images/columbia_temple.webp"
+        "imgurl": "images/columbia_sc_temple.webp"
       }
     ]
 }  
