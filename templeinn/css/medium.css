@@ -1,3 +1,77 @@
-@media (min-width: 37.5em) {
-    
+@media (min-width: 650px) {
+
+    nav {
+        padding: 10px;
+        order: 3;
+      }
+      
+      .navigation {
+        list-style: none;
+        background-color: #c2d8b9;
+        border-radius: 10px;
+        padding: 0;
+      }
+      
+      .navigation li:first-child {
+        display: block;
+        border-radius: 10px;
+      }
+      
+      .navigation li:last-child {
+        border-radius: 10px;
+      }
+      
+      .navigation li {
+        display: none;
+        background-color: #c2d8b9;
+      }
+      .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        transition: 0.5s;
+      }
+      
+      .navigation a.ham::before {
+        content: "☰";
+      }
+      
+      .navigation a:hover {
+        color: white;
+        background-color: #738290;
+        border-radius: 10px;
+      }
+      
+      /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+          <ul class="navigation responsive">
+        */
+    .navigation a.ham::before {
+        content: "☰";
+      }
+      
+      .navigation a:hover {
+        color: white;
+        background-color: #738290;
+        border-radius: 10px;
+      }
+      
+      /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+          <ul class="navigation responsive">
+        */
+      .responsive li {
+        display: block;
+      }
+      
+      .responsive a.ham::before {
+        content: "X";
+        text-align: center;
+      }
+      
+      nav ul li.active a {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
 }

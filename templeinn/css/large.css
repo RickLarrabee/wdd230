@@ -1,4 +1,4 @@
-@media (min-width: 48em) {
+@media (min-width: 850px) {
 
   /*------------Navigation Styling-----------*/
   nav {
@@ -77,54 +77,61 @@
 
   /*----------------temple styling-----------------*/
 
-.cards {
-  display:flex;
-  flex-direction: column;
-  border-radius: 10px;
-}
+  .select_like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
-.cards section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0.5rem;
-  padding: 0.5rem;
-  border: solid #738290;
-  align-items: center;
-  border-radius: 10px;
-}
+  .cards {
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
 
-.cards section > p {
-  padding: 5px;
-}
+  .cards section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid #738290;
+    align-items: center;
+    border-radius: 10px;
+  }
 
-.cards img {
-  width: auto;
-  height: auto;
-  border-radius: 10px;
-}
+  .cards section > p {
+    padding: 5px;
+  }
 
-.temple-name {
-  grid-row: 1/2;
-  grid-column: 1/4;
-  font-weight: bold;
-}
+  .cards img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+  }
 
-.contact {
-  grid-row:  2/3;
-  grid-column: 1/4;
-}
+  .temple-name {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    font-weight: bold;
+  }
 
-.services {
-  grid-column: 1/2;
-}
+  .contact {
+    grid-row:  2/3;
+    grid-column: 1/4;
+  }
 
-.history {
-  grid-column: 2/3;
-}
+  .services {
+    grid-column: 1/2;
+  }
 
-.closure {
-  grid-column: 3/4;
-}
+  .history {
+    grid-column: 2/3;
+  }
+
+  .closure {
+    grid-column: 3/4;
+  }
 
   /*----------------reservation page styling--------------*/
 
@@ -133,7 +140,7 @@
   }
 
   .reservation-form {
-    display: grid53984084
+    display: grid
   }
 
 

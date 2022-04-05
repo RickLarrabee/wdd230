@@ -203,7 +203,7 @@ nav ul li.active a {
 
 .select_like {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -249,9 +249,6 @@ nav ul li.active a {
   border-radius: 10px;
 }
 
-/*----------------like button------------------*/
-
-
 /*----------------forecast styling--------------*/
 
 .current-weather {
@@ -282,6 +279,7 @@ nav ul li.active a {
 /*----------------reservation form----------------*/
 
 
+
 /*----------------Footer Styling--------------*/
 footer {
   background-color: #e4f0d0;
@@ -306,7 +304,7 @@ footer {
   padding: 1em;
   max-width: 500px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   border: solid black;
   border-radius: 10px;
 }
@@ -326,8 +324,6 @@ footer {
 }
 
 .contactform :nth-child(7) {
-  grid-column: 3/4;
-  grid-row: 2/3;
   margin-left: 5px;
   border-radius: 5px;
 }
