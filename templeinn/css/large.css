@@ -90,7 +90,7 @@
 
 .cards section {
   display: grid;
-  grid-template-columns: repeat(3, auto-fit);
+  grid-template-columns: repeat(3, 1fr);
   margin: 0.5rem;
   padding: 0.5rem;
   border: solid #738290;

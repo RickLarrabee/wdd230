@@ -22,7 +22,10 @@ p,
 label,
 legend,
 ol,
-li {
+li,
+option,
+select, 
+input{
   font-family: "Cinzel";
 }
 
@@ -194,9 +197,17 @@ nav ul li.active a {
 
 /*----------------temple styling-----------------*/
 
+.temple-select {
+  padding: 5px;
+}
+
+#temple {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   background-color: #a1b5d8;
   border-radius: 10px;
 }
