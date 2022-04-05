@@ -26,25 +26,20 @@
   /*----------------main content---------------*/
 
   .slide-reserve {
-    position: relative;
     align-items: center;
   }
 
-  /*----------------slide show------------------*/
-
-  .slideshow-container {
-    z-index: -1;
-    top: 25px;
-    left: 0;
-  }
-
   /*----------------availability form------------*/
+  .availability-form {
+    position: relative;
+    bottom: 50px;
+    z-index: 0;
+  }
 
   .availability {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
-    position: relative;
     bottom: 15px;
     left: 18%;
     height: 100px;

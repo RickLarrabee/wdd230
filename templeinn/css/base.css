@@ -42,6 +42,7 @@ li {
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
   background-color: #e4f0d0;
 }
 
@@ -126,13 +127,8 @@ nav ul li.active a {
 
 /*----------------Temple Slide Show-----------*/
 
-* {
-  box-sizing: border-box;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
   margin: auto;
 }
 
@@ -232,6 +228,9 @@ nav ul li.active a {
   height: auto;
   border-radius: 10px;
 }
+
+/*----------------like button------------------*/
+
 
 /*----------------forecast styling--------------*/
 
