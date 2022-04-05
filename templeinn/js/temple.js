@@ -19,18 +19,14 @@ function change_temple () {
       return response.json();
     })
     .then(function (jsonObject) {
-      console.table(jsonObject);
-      //console.table(jsonObject); // temporary checking for valid response and data parsing
       const temples = jsonObject["temples"];
       temples.forEach(temple_array);
     });
 
     function temple_array(temple) {
       let temple_id = temple.id;
-      console.log(temple_selected)
       if (temple_id == temple_selected) {
         temple_data.push(temple)
-        console.table(temple_data)
         temple_data.forEach(display_temple)
       }
 

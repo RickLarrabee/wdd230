@@ -14,7 +14,7 @@
     <script defer src="js/temple.js"></script>
     <script defer src="js/like.js"></script>
   </head>
-  <body>
+  <body onload="check_like ()">
     <header>
       <div id="stickit">
         <div class="header">
@@ -41,9 +41,10 @@
     </header>
     <main>
       <div class="content">
+        <div class="select_like">
         <div class="temple-select">
           <label for="temple"></label>
-          <select name="temple" id="temple">
+          <select  onchange="check_like ()" name="temple" id="temple">
             <option value="dc">Washington D.C. Temple</option>
             <option value="pa">Philadelphia Pennsylvania Temple</option>
             <option value="nc">Raleigh North Carolina Temple</option>
@@ -53,6 +54,7 @@
         <div class="like">
           <button class="like-button" onclick="like()"></button>
         </div>
+      </div>
        <div class="cards"></div>
       </div>
     </main>

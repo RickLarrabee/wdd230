@@ -197,11 +197,31 @@ nav ul li.active a {
   padding: 5px;
 }
 
+.temple-select :hover {
+  border-color: blue;
+}
+
+.select_like {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button {
+  height: 35px;
+  width: 125px;
+  border-radius: 10px;
+}
+
+.like :hover {
+  border-color: blue;
+}
+
 #temple {
   padding: 5px;
   border-radius: 10px;
 }
-
 
 .cards {
   background-color: #a1b5d8;
