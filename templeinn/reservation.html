@@ -47,7 +47,7 @@
         <form
           class="reservation-form"
           action="reservationsubmit.html"
-          onsubmit="reservation_submit ()"
+          onsubmit="complete_reservation ()"
         ><fieldset>
               <legend>Reservation Information</legend>
               <label for="location">location</label>
@@ -58,9 +58,9 @@
                 <option value="sc">Columbia, SC</option>
               </select>
               <label for="checkin">Check In</label>
-              <input type="date" name="date" id="checkin" />
+              <input type="date" name="date" id="checkin" required/>
               <label for="checkout">Check Out</label>
-              <input type="date" name="date" id="checkout" /><br />
+              <input type="date" name="date" id="checkout" required/>
               <label for="ratetype">Preferred Rate</label>
               <select name="ratetype" id="ratetype">
                 <option value="best">Best Available</option>
@@ -124,6 +124,7 @@
               <input type="text" name="state" id="state" />
             </fieldset>
               <input
+                class ="click-here"
                 type="submit"
                 value="Complete Reservation"
                 id="reservationsubmit"

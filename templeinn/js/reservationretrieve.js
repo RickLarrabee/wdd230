@@ -22,3 +22,7 @@ function reservation_submit () {
     localStorage.removeItem("checkin");
     localStorage.removeItem("checkout");
 }
+
+function complete_reservation () {
+    alert("Thank you for reserving a room with us.")
+}
