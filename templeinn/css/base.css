@@ -24,7 +24,8 @@ ol,
 li,
 option,
 select, 
-input{
+input,
+a {
   font-family: "Cinzel";
 }
 
@@ -168,6 +169,7 @@ nav ul li.active a {
   flex-direction: column;
   border: solid #738290;
   border-radius: 10px;
+  margin:5px;
 }
 
 .availability :nth-child(2),
@@ -188,6 +190,7 @@ nav ul li.active a {
 .templeinfo {
   border: solid #738290;
   border-radius: 10px;
+  margin:5px;
 }
 
 /*----------------temple styling-----------------*/
@@ -254,6 +257,7 @@ nav ul li.active a {
   grid-column: 1/2;
   border: solid #738290;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .forecast {
@@ -300,11 +304,81 @@ nav ul li.active a {
 
 .reservation-form #reservationsubmit {
   margin: 10px;
+  border-radius: 10px;
+  height: 35px;
 }
 
 .reservation-form #reservationsubmit :hover {
   background-color: #a1b5d8;
 }
+
+
+/*----------------Services Styling-------------*/
+
+.services-list li {
+  list-style-type: circle;
+  padding: 5px;
+}
+
+.services-list {
+  border: solid #738290;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.services-slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-slides img {
+  width: 100%;
+  margin: 0;
+}
+
+.services-slides ul {
+  list-style: none;
+  background-color: #c2d8b9;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.services-slides li:first-child {
+  display: block;
+  border-radius: 10px;
+}
+
+.services-slides li:last-child {
+  border-radius: 10px;
+}
+
+.services-slides li {
+  float: left;
+  display: block;
+  background-color: #c2d8b9;
+}
+.services-slides a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.services-slides a:hover {
+  color: white;
+  background-color: #738290;
+  border-radius: 10px;
+}
+
+.services-slides ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
 
 /*----------------Footer Styling--------------*/
 footer {

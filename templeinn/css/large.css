@@ -135,22 +135,37 @@
 
   /*----------------reservation page styling--------------*/
 
-.reservation-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  padding: 5px;
-  margin: auto;
-}
+  .reservation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+  }
 
-.reservation-form #reservationsubmit {
-  grid-column: 2/3;
-  margin: 10px;
-}
+  .reservation-form #reservationsubmit {
+    grid-column: 2/3;
+    margin: 10px;
+  }
 
-.reservation-form fieldset {
-  height: 300px;
-}
+  .reservation-form fieldset {
+    height: 300px;
+  }
+
+
+  /*------------------Services Styling-------------*/
+
+  .services-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services-slides {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
 
   /*----------------Footer Styling--------------*/
   footer {
