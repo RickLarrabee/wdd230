@@ -3,12 +3,11 @@
 
 /*-----------------content size setting-------------*/
 
-#stickit, 
-main,
+#stickit,
+main, 
 .footer {
   max-width: 85em;
   margin: auto;
-  text-align: center;
 }
 
 /*-----------------Font Assignment------------------*/
@@ -123,6 +122,7 @@ nav ul li.active a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 /*----------------Temple Slide Show-----------*/
@@ -164,7 +164,6 @@ nav ul li.active a {
   background-color: #a1b5d8;
   height: auto;
   width: auto;
-  display: grid;
   display: flex;
   flex-direction: column;
   border: solid #738290;
@@ -198,7 +197,7 @@ nav ul li.active a {
 }
 
 .temple-select :hover {
-  border-color: blue;
+  background-color: #a1b5d8;
 }
 
 .select_like {
@@ -215,7 +214,7 @@ nav ul li.active a {
 }
 
 .like :hover {
-  border-color: blue;
+  border-color: #0a5ff1;
 }
 
 #temple {
@@ -278,7 +277,34 @@ nav ul li.active a {
 
 /*----------------reservation form----------------*/
 
+.reservation-form label {
+  display: block;
+  padding: 5px;
+}
 
+.reservation-form form iframe {
+  height: 400px;
+  width: 400px;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.reservation-form textarea {
+  width: 100%;
+}
+
+.reservation-form fieldset {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.reservation-form #reservationsubmit {
+  margin: 10px;
+}
+
+.reservation-form #reservationsubmit :hover {
+  background-color: #a1b5d8;
+}
 
 /*----------------Footer Styling--------------*/
 footer {

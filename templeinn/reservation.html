@@ -49,10 +49,10 @@
           class="reservation-form"
           action="reservationsubmit.html"
           onsubmit="reservation_submit ()"
-        >
-            <div class="row-one">
+        ><fieldset>
+              <legend>Reservation Information</legend>
               <label for="location">location</label>
-              <select name="location" id="location">
+              <select name="location" id="location" class="styl">
                 <option value="dc" selected="selected">Washington D.C.</option>
                 <option value="pa">Philadelphia, PA</option>
                 <option value="nc">Raleigh, NC</option>
@@ -71,8 +71,9 @@
                 <option value="senior">Senior Discount</option>
                 <option value="corp">Corporate Special Rate</option>
               </select>
-            </div>
-            <div class="row-two">
+          </fieldset>
+          <fieldset>
+          <legend>Room Information</legend>
               <label for="rooms">Number of Rooms</label>
               <input
                 type="number"
@@ -107,12 +108,11 @@
                 max="99"
                 value="0"
               />
-            </div>
-            <div class="row-three">
               <label for="request">Special Requests</label>
               <textarea name="request" id="request"></textarea>
-            </div>
-            <div class="row-four">
+          </fieldset>
+          <fieldset>
+              <legend>Guest Information</legend>
               <label for="fname">First Name</label>
               <input type="text" name="fname" id="fname" required />
               <label for="lname">Last Name</label>
@@ -121,16 +121,14 @@
               <input type="text" name="email" id="emial" required />
               <label for="phone">Phone Number</label>
               <input type="text" name="tel" id="phone" required />
-            </div>
-            <div class="row-five">
               <label for="state">Home State / Country</label>
               <input type="text" name="state" id="state" />
+            </fieldset>
               <input
                 type="submit"
                 value="Complete Reservation"
                 id="reservationsubmit"
               />
-            </div>
         </form>
       </div>
     </main>

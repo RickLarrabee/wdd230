@@ -135,14 +135,22 @@
 
   /*----------------reservation page styling--------------*/
 
-  .reservation-content {
-    display: flex;
-  }
+.reservation-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+}
 
-  .reservation-form {
-    display: grid
-  }
+.reservation-form #reservationsubmit {
+  grid-column: 2/3;
+  margin: 10px;
+}
 
+.reservation-form fieldset {
+  height: 300px;
+}
 
   /*----------------Footer Styling--------------*/
   footer {
