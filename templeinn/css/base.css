@@ -336,6 +336,10 @@ nav ul li.active a {
   margin: 10px;
 }
 
+.services-list p {
+  text-align: center;
+}
+
 .services-slides {
   display: flex;
   flex-direction: column;
