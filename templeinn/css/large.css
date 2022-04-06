@@ -167,6 +167,18 @@
     align-items: center;
   }
 
+
+  /*----------------Contact Styling-------------*/
+
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .contact {
+    grid-column: 2/3;
+  }
+
   /*----------------Footer Styling--------------*/
   footer {
     background-color: #e4f0d0;

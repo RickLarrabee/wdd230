@@ -74,4 +74,14 @@
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
       }
-}
+
+      /*------------------------Contact Styling-------------------*/
+      .contact-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      
+      .contact {
+        grid-column: 2/3;
+      }
+}       

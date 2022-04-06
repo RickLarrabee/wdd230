@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/project.js"></script>
     <script defer src="js/nav.js"></script>
     <script defer src="js/temple.js"></script>
     <script defer src="js/like.js"></script>
+    <script defer src="js/contact.js"></script>
   </head>
   <body onload="check_like ()">
     <header>
@@ -27,6 +29,7 @@
               <li class="active"><a href="temple.html">Temple</a></li>
               <li><a href="reservation.html">Reservation</a></li>
               <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">contact</a></li>
             </ul>
           </nav>
           <div class="social">
@@ -79,17 +82,19 @@
           </a>
         </div>
         <div class="contactformgroup">
-          <form class="contactform" action="contactsubmit.html" method="get" autocomplete="on">
+          <form class="contactform" onsubmit="contact_us ()" action="contact.html" method="get" autocomplete="on">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" required />
             <label for="email">Email Address</label>
-            <input type="text" id="email" name="email" />
+            <input type="text" id="email" name="email" required/>
             <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="tel" />
-            <input type="submit" value="Contact Us" />
+            <input type="text" id="phone" name="tel" required/>
+            <input type="submit" id="submit" value="Contact Us" />
           </form>
         </div>
       </div>
+      <p> &copy; <span id="year">current year</span> | Temple Inn & Suites | Rick
+        Larrabee | WDD 230 Project</p>
     </footer>
   </body>
 </html>

@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/project.js"></script>
     <script defer src="js/nav.js"></script>
     <script defer src="js/reservationretrieve.js"></script>
+    <script defer src="js/contact.js"></script>
   </head>
   <body>
     <header>
@@ -26,6 +28,7 @@
               <li><a href="temple.html">Temple</a></li>
               <li class="active"><a href="reservation.html">Reservation</a></li>
               <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">contact</a></li>
             </ul>
           </nav>
           <div class="social">
@@ -46,8 +49,7 @@
       <div class="reservation-content">
         <form
           class="reservation-form"
-          action="reservationsubmit.html"
-          onsubmit="complete_reservation ()"
+          onsubmit="reservation_complete ()"
         ><fieldset>
               <legend>Reservation Information</legend>
               <label for="location">location</label>
@@ -60,7 +62,7 @@
               <label for="checkin">Check In</label>
               <input type="date" name="date" id="checkin" required/>
               <label for="checkout">Check Out</label>
-              <input type="date" name="date" id="checkout" required/>
+              <input type="date" name="date" id="checkout" required/><br />
               <label for="ratetype">Preferred Rate</label>
               <select name="ratetype" id="ratetype">
                 <option value="best">Best Available</option>
@@ -124,7 +126,6 @@
               <input type="text" name="state" id="state" />
             </fieldset>
               <input
-                class ="click-here"
                 type="submit"
                 value="Complete Reservation"
                 id="reservationsubmit"
@@ -155,22 +156,19 @@
           </a>
         </div>
         <div class="contactformgroup">
-          <form
-            class="contactform"
-            action="contactsubmit.html"
-            method="get"
-            autocomplete="on"
-          >
+          <form class="contactform" onsubmit="contact_us ()" action="contact.html" method="get" autocomplete="on">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
-            <label for="email2">Email Address</label>
-            <input type="text" id="email2" name="email" />
-            <label for="phone2">Phone Number</label>
-            <input type="text" id="phone2" name="tel" />
-            <input type="submit" value="Contact Us" />
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" required/>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="tel" required/>
+            <input type="submit" id="submit" value="Contact Us" />
           </form>
         </div>
       </div>
+      <p> &copy; <span id="year">current year</span> | Temple Inn & Suites | Rick
+        Larrabee | WDD 230 Project</p>
     </footer>
   </body>
 </html>

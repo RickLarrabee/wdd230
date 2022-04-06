@@ -5,10 +5,6 @@ let location_current = document.querySelector("#location");
 let check_in_current = document.querySelector("#checkin");
 let check_out_current = document.querySelector("#checkout");
 
-console.log(location_data);
-console.log(check_in_data);
-console.log(check_out_data);
-
 if (location_data == null) {
     location_current.value = 'dc'
 } else {
@@ -17,12 +13,9 @@ if (location_data == null) {
     check_out_current.value = check_out_data;
 }
 
-function reservation_submit () {
+function reservation_complete () {
     localStorage.removeItem("location");
     localStorage.removeItem("checkin");
     localStorage.removeItem("checkout");
-}
-
-function complete_reservation () {
     alert("Thank you for reserving a room with us.")
 }

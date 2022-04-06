@@ -5,24 +5,20 @@ const submit_button = document.querySelector("#reservationsubmit");
 let location_data = location_selected.options[location_selected.selectedIndex].value;
 let check_in_data = '';
 let check_out_data = '';
-console.log(location_data);
 
 location_selected.addEventListener('change',(e)=> {
     location_data = '';
     location_data = location_selected.options[location_selected.selectedIndex].value;
-    console.log(location_data);
 });
 
 check_in_selected.addEventListener('change',(e)=> {
     check_in_data = '';
     check_in_data = check_in_selected.value;
-    console.log(check_in_data);
 });
 
 check_out_selected.addEventListener('change',(e)=> {
     check_out_data = '';
     check_out_data = check_out_selected.value;
-    console.log(check_out_data);
 });
 
 function reservation_submit () {
