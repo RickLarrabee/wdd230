@@ -39,6 +39,16 @@ li {
   list-style-type: none;
 }
 
+/*----------------Weather Advisory-----------------*/
+.weather-banner {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.weather-alert {
+  color: white;
+}
+
 /*----------------Header Styling--------------------*/
 header {
   position: sticky;

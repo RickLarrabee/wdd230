@@ -16,13 +16,15 @@ fetch(apiURL)
     let current_temp = jsObject.current.temp;
     let current_humidity = jsObject.current.humidity;
     let current_wind = jsObject.current.wind_speed;
-    let current_icon = `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`
-    let current_alerts = jsObject.alerts
+    let current_icon = `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
+    let current_alerts = jsObject.alerts;
     if (current_alerts == null) {
-      current_alerts = ''
-      console.log(current_alerts)
+      current_alerts = '';
+      console.log(current_alerts);
     } else {
-      current_alerts = jsObject.alerts.event
+      current_alerts = jsObject.alerts.event;
+      let weather_alert = document.querySelector('.weather-alert');
+      weather_alert.innerHTML = current_alerts;
     }
 
     let current_weather = document.createElement('section');
