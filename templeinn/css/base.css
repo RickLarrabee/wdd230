@@ -39,6 +39,14 @@ li {
   list-style-type: none;
 }
 
+button,
+input, 
+select,
+textarea {
+  cursor: pointer;
+}
+
+
 /*----------------Weather Advisory-----------------*/
 .weather-banner {
   background-color: red;
@@ -208,10 +216,6 @@ nav ul li.active a {
 
 .temple-select {
   padding: 5px;
-}
-
-.temple-select :hover {
-  background-color: #a1b5d8;
 }
 
 .select_like {
