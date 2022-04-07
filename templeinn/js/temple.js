@@ -53,7 +53,6 @@ function change_temple () {
       portrait.setAttribute('class', 'temple-image')
       portrait.setAttribute('src', temple.imgurl);
       portrait.setAttribute('alt', `Portrait of ${temple.name}`);
-      portrait.setAttribute('loading', 'lazy');
       temple_name.setAttribute('class', 'temple-name')
       contact.setAttribute('class', 'contact');
       services.setAttribute('class', 'services');

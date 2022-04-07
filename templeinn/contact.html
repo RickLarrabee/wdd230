@@ -43,12 +43,12 @@
     <main>
       <div class="contact-content">
        <form class="contact" onsubmit="contact_complete ()" action="index.html">
-         <label for="name1">Name</label>
-         <input type="text" id="name1">
-         <label for="email1">Email Address</label>
-         <input type="text" id="email1">
-         <label for="phone1">Telephone Number</label>
-         <input type="text" id="phone1">
+         <label for="name1">Name<span style="color: red">*</span></label>
+         <input type="text" id="name1" required>
+         <label for="email1">Email Address<span style="color: red">*</span></label>
+         <input type="text" id="email1" required>
+         <label for="phone1">Telephone Number<span style="color: red">*</span></label>
+         <input type="text" id="phone1" required>
          <label for="request">Tell us what you need</label>
          <textarea name="request" id="request" cols="30" rows="10"></textarea>
          <input class="submit" type="submit" value="Submit Contact">
@@ -79,11 +79,11 @@
         </div>
         <div class="contactformgroup">
           <form class="contactform" onsubmit="contact_us ()" action="contact.html" method="get" autocomplete="on">
-            <label for="name">Name</label>
+            <label for="name">Name<span style="color: red">*</span></label>
             <input type="text" id="name" name="name" required />
-            <label for="email">Email Address</label>
+            <label for="email">Email Address<span style="color: red">*</span></label>
             <input type="text" id="email" name="email" required/>
-            <label for="phone">Phone Number</label>
+            <label for="phone">Phone Number<span style="color: red">*</span></label>
             <input type="text" id="phone" name="tel" required/>
             <input type="submit" id="submit" value="Contact Us" />
           </form>

@@ -94,9 +94,9 @@
               <option value="nc">Raleigh, NC</option>
               <option value="sc">Columbia, SC</option>
             </select>
-            <label for="checkin">Check In</label>
+            <label for="checkin">Check In<span style="color: red">*</span></label>
             <input type="date" name="date" id="checkin" required/>
-            <label for="checkout">Check Out</label>
+            <label for="checkout">Check Out<span style="color: red">*</span></label>
             <input type="date" name="date" id="checkout" required/><br />
             <input
               type="submit"
@@ -163,11 +163,11 @@
         </div>
         <div class="contactformgroup">
           <form class="contactform" onsubmit="contact_us ()" action="contact.html" method="get" autocomplete="on">
-            <label for="name">Name</label>
+            <label for="name">Name<span style="color: red">*</span></label>
             <input type="text" id="name" name="name" required />
-            <label for="email">Email Address</label>
+            <label for="email">Email Address<span style="color: red">*</span></label>
             <input type="text" id="email" name="email" required/>
-            <label for="phone">Phone Number</label>
+            <label for="phone">Phone Number<span style="color: red">*</span></label>
             <input type="text" id="phone" name="tel" required/>
             <input type="submit" id="submit" value="Contact Us" />
           </form>
