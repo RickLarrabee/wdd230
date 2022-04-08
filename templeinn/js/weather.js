@@ -1,11 +1,7 @@
 const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=39.025669&lon=-77.07637&exclude=minutely,hourly&units=imperial&APPID=96177d494514829db17df98e0f50bdce";
 const d = new Date();
-const days =  ["Sun","Mon","Tues","Wed","Thur","Fri","Sat"];
+const days =  ["Sun","Mon","Tues","Wed","Thur","Fri","Sat", "Sun", "Mon", "Tues"];
 //let day = days[d.getDay()];
-let day_0 = d.getDay();
-let day_1 = (d.getDay() + 1);
-let day_2 = (d.getDay() + 2);
-let day_3 = (d.getDay() + 3);
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -56,7 +52,6 @@ fetch(apiURL)
       day_icon.setAttribute('src', `${forecast_icon}`);
       day_icon.setAttribute('alt', 'weather icon');
       day_icon.setAttribute('loading', 'lazy');
-
       let day = days[d.getDay() + i];
       day_tag.innerHTML = `${day}`;
       day_data.innerHTML = `High: ${Math.round(jsObject.daily[i].temp.max)}&deg F<br/> 
